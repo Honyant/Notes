@@ -1,0 +1,100 @@
+
+- [Price elasticity](#price-elasticity)
+- [Profit equation](#profit-equation)
+- [XED: comparative](#xed-comparative)
+- [YED](#yed)
+    - [Normal goods $YED>0$](#normal-goods-yed0)
+    - [Inferior Goods $YED<0$](#inferior-goods-yed0)
+- [PES](#pes)
+
+# Price elasticity
+
+$PED=-\frac{\% \Delta Q_d}{\% \Delta P}$
+
+$\% \Delta Q_d $ and $\% \Delta P$ always opposite signs
+
+top of the demand curve is ped elastic
+bottom is ped inelastic even when you drop the price $50\%$, demand barely changes
+
+Think of inelastic as ppl really want it and $PED < 0$
+
+Determinants of PED
+
+1. The available of substitutes: if the price of something else is better, you buy that better cheaper thing.
+
+2. Time span - more time, more time to find substitutes
+
+3. The proportion of income spent on the good, the more the \% of income spent on the good, the greater the demand is relatively price elastic.
+
+The percent change is greater in the x axis at higher axis at low x values, percent change is lower in the y axis at higher axis at low y values,
+
+**S**-substitutes(more substitutes=more elastic)
+**P**-proportion of income(large proportion=elastic)
+**L**-luxury or necessity(necessity=inelastic)
+**A**-addictive(inelastic)
+**T**-time passed(over time=more elastic)
+
+If ur product is inelastic, price should be raised
+If ur product is elastic, price should be lowered
+
+# Profit equation
+
+$\pi=T_R-T_C$
+
+Example:
+$T_C=500$
+$T_R=P \times Q =400 \times 100$
+$\pi=-100k$
+
+$1550 \times 500=775,000$
+$775,000-500,000=225,000$
+
+# XED: comparative
+
+$XED=\frac{\%\Delta Q_A}{\%\Delta P_B}$
+
+Price pepsi, goes up, price of coke cokes up, $XED$ is positive
+
+If price of hamburgers go up, then the demand for buns goes down, so XPED=-1, and they are complements
+
+$CPED$ or $XED$ or $XPED$
+
+if $XPED=1$, strong substitute,
+
+$XPED=-1$, complement good
+
+# YED
+
+**Income Elasticity of Demand** measures the responsiveness in the quantity demanded for a good or service when the real income of the consumers is changed
+
+$YED=\frac{\%\Delta Q}{\%\Delta Y}$
+
+>**0-1:** Inelastic
+ demand for the good is relatively unresponsive to changes in consumer income
+**1:** unit elastic
+**\>1 :** Elastic
+
+### Normal goods $YED>0$
+
+- Necessity: $YED \in (0,1)$
+  - Cigarettes
+- Luxuries: $YED>1$
+  - Cuban Cigars
+
+### Inferior Goods $YED<0$
+
+- Demand falls as income rises
+- Superior subsitutes availble
+(potatoes, really cheap underwear)
+
+# PES
+
+$PES=\frac{\%\Delta Q_S}{\%\Delta P_S}$
+
+1. Time
+   A. if you have to seel the fish rn, you have low PES
+2. availability of producer substitutes
+   B. no close subsitutes $\implies$ lower PES
+
+3. extent of excess capacity
+4. use of skilled or unskilled
