@@ -6,6 +6,7 @@
     - [Normal goods $YED>0$](#normal-goods-yed0)
     - [Inferior Goods $YED<0$](#inferior-goods-yed0)
 - [PES](#pes)
+  - [Who is paying the tax](#who-is-paying-the-tax)
 
 # Price elasticity
 
@@ -98,3 +99,15 @@ $PES=\frac{\%\Delta Q_S}{\%\Delta P_S}$
 
 3. extent of excess capacity
 4. use of skilled or unskilled
+
+## Who is paying the tax
+
+$\frac{\% \mathrm{consumer \space incidence \space tax}}{\% \mathrm{producer \space incidence \space tax}}= \frac{PES}{PED}$
+
+PED more elastic, then the producers pay more of the burden
+
+PES more elastic, then the consumers pay more of the burden
+
+This is only works on a shift on supply curves.
+
+Tip: just look at before and after, and determine how much producers pay now vs how much they pay later as well as for consumers.
