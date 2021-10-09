@@ -1,16 +1,15 @@
-# Table of Contents
+# Chapter 3
 
-- [Table of Contents](#table-of-contents)
-- [Some Cases of Unusual Points](#some-cases-of-unusual-points)
+- [Chapter 3](#chapter-3)
+  - [Some Cases of Unusual Points](#some-cases-of-unusual-points)
   - [Getting LSRL from those values](#getting-lsrl-from-those-values)
   - [What removing things does](#what-removing-things-does)
     - [Removing the point for child 18](#removing-the-point-for-child-18)
     - [Removing the point for child 19](#removing-the-point-for-child-19)
       - [Sample Problem on sheet](#sample-problem-on-sheet)
-- [Test Stuff to know](#test-stuff-to-know)
-- [Chp 4](#chp-4)
+  - [Test Stuff to know](#test-stuff-to-know)
   
-# Some Cases of Unusual Points
+## Some Cases of Unusual Points
 
 The point $(\bar{x} , \bar{y}) $is always on the LSRG.
 
@@ -68,7 +67,7 @@ $\frac{5}{7} = 0.7142857142=71.428\%$
 
 $\frac{6}{9}=0.6666666666=66.666\%$
 
-# Test Stuff to know
+## Test Stuff to know
 
 - Use "predict" or "prediction"
 - all the "interpret" language.
@@ -79,26 +78,3 @@ $\frac{6}{9}=0.6666666666=66.666\%$
 - patterns in residual plots if you see a linear pattern w/ + or - slope, check that xlist is $L_1$ not $L_2$
 - when does the value of r tell me anything useful(only when linear assoc)
   
-# Chp 4
-
-**Census** - Collection of data from every member of a population usually very expensive in money or time
-
-**Convenience sample** - easy to get (rarely represents the whole pop).
-
-- results in convenience bias.
-
-**Bias** - using a method that is likely to result in an overestimate or an underestimate of the value for the population (not an unlucky sample)
-
-For your answer:
-
-1. How members might respond different from the general population
-   
-or
-
-2. How this difference would lead to an overestimate or underestimate
-
-**Voluntary response sample** - allows people to self-select to participate invitation (generally people who might feel strongly about an issue - extreme view)
-
-- results in voluntary response bias
-
-They have to take the action to participate- voluntary response bias
