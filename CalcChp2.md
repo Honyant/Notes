@@ -57,9 +57,9 @@ $f(1)=2$ is the abs min val
 ## Some theorems
 
 Rolle's theorem
-On a continuous and differentiable interval $[a,b]$ where $f(a)=f(b)$ then $\exists x \in [a,b]$ such that $f'(x)=0$
+On a continuous and differentiable interval $[a,b]$ where $f(a)=f(b)$ then $\exists x \in (a,b)$ such that $f'(x)=0$
 
 Mean Value theorem
 
-On a continuous and differentiable interval $[a,b]$ then $\exists x \in [a,b]$ such that $f'(x)=\frac{f(a)-f(b)}{a-b}$
+On a continuous and differentiable interval $[a,b]$ then $\exists x \in (a,b)$ such that $f'(x)=\frac{f(a)-f(b)}{a-b}$
 Basically, instantaneous rate of change=avg rate of change
