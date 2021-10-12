@@ -51,14 +51,17 @@ $dy= 2x dx$
 
 $\int y dx+ \int 2x dy =\int x^2 dx+\int 2x 2x dx= \int_0^1 5x^2 dx=\frac{5}{3} J$
 
-## Newton's second law for wokr
+## Newton's second law for work
 
 
 Work by net force $W_{net}= \int F_{net} \mathrm dx = \int (ma) \mathrm dx$
 
-$$m \int \frac{\mathrm d^2 x}{ \mathrm dt^2} \frac{\mathrm d}{ \mathrm dt} dt$$
+$$m \int \frac{\mathrm d^2 x}{ \mathrm dt^2} \frac{\mathrm d}{ \mathrm dt} \mathrm dt$$
+
 $$ \frac{\mathrm d^2 x}{ \mathrm dt^2} \frac{\mathrm d}{ \mathrm dt}=\frac{\mathrm d}{ \mathrm dt}[\frac{1}{2}( \frac{\mathrm dx}{ \mathrm dt})^2]$$
+
 $$=\frac{m}{2} \int_0^t ( \frac{\mathrm dx}{ \mathrm dt})^2 dt$$
+
 $$=\frac{1}{2} mv^2-\frac{1}{2} mv_0^2$$
 
 **Kinetic energy:**
@@ -67,3 +70,55 @@ $K=\frac{1}{2}mv^2$
 **Work-Energy Theorem:**
 $W_{net}= \Delta K$
 
+Example:
+A 70kg bse runner slides into 2nd base moving 4 m/s $\mu_k=0.7$. Stops at base.
+
+- How much energy is lost to friction?
+$1/2*70*4^2 = 560$
+- How far does he slide?
+$F=mg \mu_k$
+$560=Fd=d/mg \mu_k=560/70/9.81/0.7 = 1.164991990680064$
+
+**Conservative Forces:** define special class of force, F, such that.
+
+$F=-\nabla U$
+$\nabla \times \nabla U \equiv 0$
+
+1. F depends only on position, $\vec r$.
+2. Work done by F between points a&b is same for all paths between a&b.
+
+**Def:**
+Associated with every cons. force is a positive energy function, $U(\vec r)$ (of only position).
+chose reference position $\vec r_0$ where $R(\vec r_0)=0$
+$$U(\vec r) \equiv -W (\vec r_0 \to  \vec r)=-\int_{\vec r_0}^{\vec r} \vec F \cdot \mathrm d \vec r$$
+
+
+$$W(\vec r_1 \to \vec r_2)=-\Delta U$$
+
+W-K theorem: If all forces are cons.
+$W_{net}=\Delta K=-\Delta U \to \Delta K+ \Delta U=0$
+$\Delta(K+U)=0$
+
+
+![picture 1](https://i.imgur.com/c0afRjh.png)  
+$K+U=30$ everywhere if all forces are conservative
+$E=K+U$
+
+Conservative force|non-cons.
+-----|-----
+gravity|friction
+spring|people
+electrostatic|
+
+$W_g=-mgh$
+$\Delta U_g=-mgh$
+
+$\textcolor{red}{\sqrt{(1/2kx^2+mgh)2/m}}$
+
+$1/2kx^2=mg(h_2-h_1)$
+$\textcolor{red}{\sqrt{mg(h_2-h_1)*2/k}}$
+
+$mgh=dgm \mu$
+$\mu =\frac{h}{d}$
+
+$F_x= -\frac{\mathrm dU}{ \mathrm dx}$
