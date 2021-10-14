@@ -7,6 +7,7 @@
     - [Inferior Goods $YED<0$](#inferior-goods-yed0)
 - [PES](#pes)
   - [Who is paying the tax](#who-is-paying-the-tax)
+    - [Maximizing Utility](#maximizing-utility)
 
 # Price elasticity
 
@@ -111,3 +112,33 @@ PES more elastic, then the consumers pay more of the burden
 This is only works on a shift on supply curves.
 
 Tip: just look at before and after, and determine how much producers pay now vs how much they pay later as well as for consumers.
+
+### Maximizing Utility
+
+Good a is 20$ an hour
+
+Consumptions possibility frontier
+(various combinations of wonda and clorine that the customer could consume)
+(customer should be equivalently happy on any point on the line)
+Employ the equimarginal principle.
+$$\frac{Mu_x}{p_x}=\frac{Mu_y}{P_y}$$
+last dollar that you spend, is equal to the last dollar you spend on the other good, that when you know when to stop.
+
+total util and marginal util
+
+number of|$$TU_A$$|$$MU_A$$|$$MU/\$_A$$|$$TU_B$$|$$MU_B$$|$$MU/\$_B$$
+-|-|-|-|-|-|-
+1|120|120|30|30|30|15
+2|200|80|20|50|20|10
+3|240|40|10|66|16|8
+4|272|32|8|74|8|4
+5|288|16|4|78|4|2
+6|292|4|1|80|2|1
+
+Equimarginal points
+$(10,10)\to 3*4+2*2=16$
+$(8,8)\to 4*4+3*2=22$
+$(4,4)\to 5*4+4*2=28$
+$(1,1)\to 6*4+6*2=36$
+
+waiting time is also a cost

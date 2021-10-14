@@ -19,3 +19,10 @@ For your answer do one of these:
 - results in voluntary response bias
 
 They have to take the action to participate- voluntary response bias
+
+**Stratified random sample** - pop split into groups determined by shared characteristic. Then do a random sample from each group.
+Sample upper school St. Marks: 2 freshmen 2 sophomores 3 juniors 3 seniors.
+This is more likely to produce a sample mean closest to the population mean bcs every part of pop that could have diff attitude or results is represented.
+
+**Cluster mean** - Population is split into groups (clusters) often geographic in natures. randomly select one or more clusters and use all in those clusters for samples.
+Cheaper than random sample. Saving time and money.
