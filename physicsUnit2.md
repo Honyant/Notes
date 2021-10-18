@@ -122,3 +122,20 @@ $mgh=dgm \mu$
 $\mu =\frac{h}{d}$
 
 $F_x= -\frac{\mathrm dU}{ \mathrm dx}$
+
+$U=\frac{8-x^3}{x^4}=8x^{-4}-x^{-1}$
+$ F=-\frac{\mathrm d U}{ \mathrm dt}=-32x^{-5}+x^{-2}$
+$0=-32x^{-5}+x^{-2}$
+$x=\sqrt[3]{32}$
+
+### Momentum
+
+$\vec p= m \vec v$
+$\vec p_{tot}= \sum \vec p_n$
+$ \frac{\mathrm d \vec p}{ \mathrm dt}= m \frac{\mathrm d \vec v}{ \mathrm dt}$
+
+#### Impulse momentum theorem
+
+$$\vec J = \int \vec F_{net} \mathrm dt=\Delta \vec p$$
+
+momentum is conserved if no net ext. force
