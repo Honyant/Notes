@@ -91,7 +91,8 @@ aside > *:last-child {
 }
 
 </style>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
@@ -105,11 +106,25 @@ aside > *:last-child {
 .task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
 </style>
         
-        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
         
     </head>
     <body class="vscode-body vscode-light">
         <h1 id="chapter-4">Chapter 4</h1>
+<ul>
+<li><a href="#chapter-4">Chapter 4</a>
+<ul>
+<li><a href="#vocab">Vocab</a></li>
+<li><a href="#ways-to-get-random-samples">Ways to get random samples</a>
+<ul>
+<li><a href="#examples">Examples</a></li>
+</ul>
+</li>
+<li><a href="#more-vocab">More vocab</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="vocab">Vocab</h2>
 <p><strong>Census</strong> - Collection of data from every member of a population usually very expensive in money or time</p>
 <p><strong>Convenience sample</strong> - easy to get (rarely represents the whole pop).</p>
 <ul>
@@ -127,9 +142,49 @@ aside > *:last-child {
 </ol>
 <p><strong>Voluntary response sample</strong> - allows people to self-select to participate invitation (generally people who might feel strongly about an issue - extreme view)</p>
 <ul>
-<li>results in voluntary response bias</li>
+<li>results in <strong>voluntary response bias</strong></li>
 </ul>
 <p>They have to take the action to participate- voluntary response bias</p>
+<h2 id="ways-to-get-random-samples">Ways to get random samples</h2>
+<p><strong>Stratified random sample</strong> - pop split into groups determined by shared characteristic. Then do a random sample from each group.
+Sample upper school St. Marks: 2 freshmen 2 sophomores 3 juniors 3 seniors.</p>
+<ul>
+<li><em>Pros:</em> This is more likely to produce a sample mean closest to the population mean bcs every part of pop that could have diff attitude or results is represented.</li>
+<li><em>Cons:</em> More expensive</li>
+</ul>
+<p><strong>Cluster random sample</strong> - Population is split into groups (clusters) often geographic in natures. randomly select one or more clusters and use all in those clusters for samples.</p>
+<ul>
+<li><em>Pros:</em> Cheaper than random sample. Saving time and money.</li>
+<li><em>Cons:</em> can get samples that have strong bias</li>
+</ul>
+<p><strong>Systematic random sample</strong> - take every kth item from the pop (randomly select the first one).</p>
+<h3 id="examples">Examples</h3>
+<p><strong>Simple random sample:</strong>
+Assign values 1-20000 to the books.
+using <code>randIntNoRep</code>, select 500 values from 1 to 20000.
+Then use those values to select the books for the sample.</p>
+<p><strong>Stratified random sample:</strong>
+Group by topic, for each type, randomly select ~<eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>500</mn><mrow><mi mathvariant="normal">#</mi><mi>o</mi><mi>f</mi><mi>t</mi><mi>y</mi><mi>p</mi><mi>e</mi><mi>s</mi><mi>o</mi><mi>f</mi><mi>b</mi><mi>o</mi><mi>o</mi><mi>k</mi><mi>s</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{500}{\# of types of books}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.326216em;vertical-align:-0.481108em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">#</span><span class="mord mathnormal mtight">o</span><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="mord mathnormal mtight">t</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">y</span><span class="mord mathnormal mtight">p</span><span class="mord mathnormal mtight">eso</span><span class="mord mathnormal mtight" style="margin-right:0.10764em;">f</span><span class="mord mathnormal mtight">b</span><span class="mord mathnormal mtight">oo</span><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span><span class="mord mathnormal mtight">s</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">500</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.481108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></eq></p>
+<p><strong>Cluster:</strong> assign numbers to each shelf 400 shelves grouped by location, randomly pick 10 shelves from the 400</p>
+<h2 id="more-vocab">More vocab</h2>
+<p><strong>Sampling Frame</strong> - List of items and assigned ids</p>
+<p><strong>Undercoverage</strong> -  some members are the population are less likely to be chosen by sampling method.</p>
+<p><strong>Nonresponse</strong> - an individual is selected for a sample but cant be reached or refuses to participate. Results in nonresponse bias. We can fix this with follow up, give them money.</p>
+<p><strong>Response Bias</strong> - Something about the order or phrasing of the questions affects the outcome.</p>
+<ul>
+<li>Would you do x vs. would you not do x</li>
+<li>&quot;lying answer&quot;: you give a socially acceptable answer. (Have you cheated on your spouse)</li>
+<li>order of questions (prior questions may make someone feel some way and answer a question a certain way)</li>
+</ul>
+<p><strong>Observational Study</strong> -  variables are measure without researcher attempting to influence the response</p>
+<ul>
+<li><strong>Retrospective:</strong> Examine existing data</li>
+<li><strong>Prospective:</strong> Example into the future (now, in 5 years, then in 15 years)</li>
+</ul>
+<p>Response: weight lost, explanatory: financial incentive. <eq><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathcolor="red"><mrow><mi mathvariant="normal">t</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">o</mi><mtext> </mtext><mi mathvariant="normal">v</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">e</mi></mrow></mstyle></mrow><annotation encoding="application/x-tex">\textcolor{red}{\mathrm{too \space vague}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.80952em;vertical-align:-0.19444em;"></span><span class="mord" style="color:red;"><span class="mord mathrm" style="color:red;">too</span><span class="mspace" style="color:red;"><span style="color:red;"> </span></span><span class="mord mathrm" style="color:red;">vague</span></span></span></span></span></eq></p>
+<p><strong>Confounding</strong> - When the effect of two or more variables on the response variable cannot be separated from each other.</p>
+<p><strong>Experiment</strong> - When the researcher intentionally changes one or more factors and measures outcomes.</p>
+<p><strong>Placebo</strong> - A treatment that cannot be differentiated from a &quot;real&quot; treatment but doesn't actually do anything.</p>
 
     </body>
     </html>
