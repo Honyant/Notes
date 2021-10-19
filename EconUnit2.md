@@ -86,7 +86,7 @@ $YED=\frac{\%\Delta Q}{\%\Delta Y}$
 ### Inferior Goods $YED<0$
 
 - Demand falls as income rises
-- Superior subsitutes availble
+- Superior substitutes available
 (potatoes, really cheap underwear)
 
 # PES
@@ -94,9 +94,9 @@ $YED=\frac{\%\Delta Q}{\%\Delta Y}$
 $PES=\frac{\%\Delta Q_S}{\%\Delta P_S}$
 
 1. Time
-   A. if you have to seel the fish rn, you have low PES
+   A. if you have to sell the fish rn, you have low PES
 2. availability of producer substitutes
-   B. no close subsitutes $\implies$ lower PES
+   B. no close substitutes $\implies$ lower PES
 
 3. extent of excess capacity
 4. use of skilled or unskilled
