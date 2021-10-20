@@ -142,3 +142,4 @@ $(4,4)\to 5*4+4*2=28$
 $(1,1)\to 6*4+6*2=36$
 
 waiting time is also a cost
+

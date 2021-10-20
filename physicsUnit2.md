@@ -139,3 +139,4 @@ $ \frac{\mathrm d \vec p}{ \mathrm dt}= m \frac{\mathrm d \vec v}{ \mathrm dt}$
 $$\vec J = \int \vec F_{net} \mathrm dt=\Delta \vec p$$
 
 momentum is conserved if no net ext. force
+
