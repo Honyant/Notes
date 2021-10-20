@@ -5,6 +5,7 @@
   - [Ways to get random samples](#ways-to-get-random-samples)
     - [Examples](#examples)
   - [More vocab](#more-vocab)
+- [Experimental design](#experimental-design)
 
 ## Vocab
 
@@ -68,10 +69,11 @@ Group by topic, for each type, randomly select ~$\frac{500}{\# of types of books
 - "lying answer": you give a socially acceptable answer. (Have you cheated on your spouse)
 - order of questions (prior questions may make someone feel some way and answer a question a certain way)
 
-
 **Observational Study** -  variables are measure without researcher attempting to influence the response
-- **Retrospective:** Examine existing data
-- **Prospective:** Example into the future (now, in 5 years, then in 15 years)
+
+**Retrospective:** Examine existing data
+
+**Prospective:** Example into the future (now, in 5 years, then in 15 years)
 
 Response: weight lost, explanatory: financial incentive. $\textcolor{red}{\mathrm{too \space vague}}$
 
@@ -80,3 +82,32 @@ Response: weight lost, explanatory: financial incentive. $\textcolor{red}{\mathr
 **Experiment** - When the researcher intentionally changes one or more factors and measures outcomes.
 
 **Placebo** - A treatment that cannot be differentiated from a "real" treatment but doesn't actually do anything.
+
+**Treatment** - A specific condition applied to an individual in the experiment.
+
+**Experimental unit/subject** - an object or individual to which a treatment is applied. All of them form the sample.
+
+**Factor** - an explanatory variable that is being manipulated.
+
+**Level** - Different values that can be assigned to a factor.
+
+# Experimental design
+
+How to address other sources of variability in an experiment.
+- comparison
+  - vary explanatory variable
+- blinding
+  - double-blind: subjects and researchers in contact with the subjects do not know which treatment.
+  - single-blind: either subjects or the researchers in contact with the subjects know which treatment, but not both.
+- random assignment
+  - this is to balance out the effect of other variables among the treatment groups.
+  - reduces the impact of confounding
+  - two people following your instructions should do the same thing
+  - 1. How randomness is used
+  - 2. How do you deal with repeats "ignore repeats" or "generate 5 distinct numbers"
+  - 3. which group is assigned to which treatment
+- control
+  - Provide a baseline for comparison; it helps account for confounding.
+  - This group gets the "do-nothing" treatment (this is either placebo or no action)
+  - placebo effect is when subjects respond favorably to any treatment, even one that isn't doing anything
+- replication

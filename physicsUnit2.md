@@ -140,3 +140,39 @@ $$\vec J = \int \vec F_{net} \mathrm dt=\Delta \vec p$$
 
 momentum is conserved if no net ext. force
 
+
+#### Problem
+
+![picture 2](https://i.imgur.com/nGf6UwE.png)  
+
+inelastic collision at d/2, find v
+$v_0=2.5 m/s$
+$d=0.7m$
+$m_a=1 kg$
+$m_b=1kg$
+$\theta= 20 \degree$
+
+
+$h=\frac{d}{2 \sin(\theta)}$
+$m_bgh=\frac{1}{2}m_bv^2$
+$m_agh=\frac{1}{2}m_a(v_0^2-v_1^2)$
+$v_{a1}=\sqrt{2gh-v_0^2}$
+$v_{b1}=\sqrt{2gh}$
+$m_a v_{a1}+m_b v_{b1}=(m_a+m_b)v$
+
+
+$v=1.098$
+
+## 1D elastic collisions: 
+2 equations, can have 2 unknowns
+$m_1v_{1i}+m_2v_{2i}=m_1+v_{1f}+m_2+v_{2f}$
+$\frac{1}{2}m_1v_{1i}^2+\frac{1}{2}m_2v_{2i}^2=\frac{1}{2}m_1v_{1f}^2+\frac{1}{2}m_2v_{2f}^2$
+
+$m_1(v_{1i}-v_{1f})=m_2(v_{2f}-v_{2i})$
+$m_1(v_{1i}^2-v_{1f}^2)=m_2(v_{2f}^2-v_{2i}^2)$
+$v_{1i}+v_{1f}=v_{2f}+v_{2i}$
+
+divide
+
+$$\boxed{v_{2f}-v_{1f}=-(v_{2i}-v_{1i})}$$
+$\star$ relative velocity flips sign
