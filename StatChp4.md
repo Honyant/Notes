@@ -94,9 +94,10 @@ Response: weight lost, explanatory: financial incentive. $\textcolor{red}{\mathr
 # Experimental design
 
 How to address other sources of variability in an experiment.
+
 - comparison
   - vary explanatory variable
-- blinding
+- *blinding (not necessary)
   - double-blind: subjects and researchers in contact with the subjects do not know which treatment.
   - single-blind: either subjects or the researchers in contact with the subjects know which treatment, but not both.
 - random assignment
@@ -110,4 +111,9 @@ How to address other sources of variability in an experiment.
   - Provide a baseline for comparison; it helps account for confounding.
   - This group gets the "do-nothing" treatment (this is either placebo or no action)
   - placebo effect is when subjects respond favorably to any treatment, even one that isn't doing anything
+  - keep other variables outside the treatment constant for all experimental units.
 - replication
+  - is about using enough subjects
+After you do all those things, if there is an association between the variables, and the difference in response is bigger than the chance variation, u can conclude cause and effect.
+
+If less than 5% of the the random chance is strong than what you get, then there is significant evidence of cause and effect.
