@@ -6,6 +6,7 @@
     - [Examples](#examples)
   - [More vocab](#more-vocab)
 - [Experimental design](#experimental-design)
+    - [Example](#example)
 
 ## Vocab
 
@@ -117,3 +118,20 @@ How to address other sources of variability in an experiment.
 After you do all those things, if there is an association between the variables, and the difference in response is bigger than the chance variation, u can conclude cause and effect.
 
 If less than 5% of the the random chance is strong than what you get, then there is significant evidence of cause and effect.
+
+### Example
+**Completely randomized design to compare online and classroom SAT prep courses.**
+
+- Label each student alphabetically 1 to 20.
+- Generate 10 distinct random numbers between 1 and 20.
+- Assign the students with these 10 numbers to the online class and the remaining 10 students in the classroom class.
+- Calculate the change in SAT score for each student and compare the two groups.
+
+If some people are in different levels of math you could
+
+- only use precal students
+- use blocking (basically stratified random sample)
+
+**Account for variability** created by differences in class level by subtracting the difference between the 3 blocks.
+Precal improved 86-20=60 more than Geo, so subtract 66 from each precal value.
+$x_{new}=x_{old}- (\bar x-\overline{lowest})$
