@@ -165,7 +165,7 @@ $v=1.098$
 
 ## 1D elastic collisions: 
 2 equations, can have 2 unknowns
-$m_1v_{1i}+m_2v_{2i}=m_1+v_{1f}+m_2+v_{2f}$
+$m_1v_{1i}+m_2v_{2i}=m_1v_{1f}+m_2v_{2f}$
 $\frac{1}{2}m_1v_{1i}^2+\frac{1}{2}m_2v_{2i}^2=\frac{1}{2}m_1v_{1f}^2+\frac{1}{2}m_2v_{2f}^2$
 
 $m_1(v_{1i}-v_{1f})=m_2(v_{2f}-v_{2i})$
@@ -176,3 +176,55 @@ divide
 
 $$\boxed{v_{2f}-v_{1f}=-(v_{2i}-v_{1i})}$$
 $\star$ relative velocity flips sign
+
+# Center of mass
+
+
+$\vec r_{cm}= \frac{\sum_i m_i \vec r_i}{\sum_i m_i}$
+
+center of mass $=\frac{\int \vec r dm}{\int m dm}$
+
+Mass: $m= \int_a^b f(x) \mathrm dx$
+Moments: 
+$M_x=\rho \int_a^b \frac{[f(x)]^2}{2} \mathrm dx$
+$M_y=\rho \int_a^b x f(x) \mathrm dx$
+
+center of mass=$(\bar x,\bar y)=(\frac{M_x}{m},\frac{M_y}{m})$
+
+Note that $\rho$ (constant density) cancels out.
+
+$$\bar x=\frac{\int_a^b \frac{f(x)^2}{2} \mathrm dx}{\int_a^b f(x) \mathrm dx}$$
+
+Example: Mass density of cx
+$dm=cx\mathrm dx$
+$\frac{\int_0^L x dm}{\int dm}=\frac{c\int_0^L x^2 \mathrm dx}{c\int_0^L x \mathrm dm}=\frac{2L^3}{3L^2}=\frac{2}{3}L$
+
+COM of top half of a uniform sphere centered at the origin:
+
+$dm=\pi (\sqrt{r^2-z^2})^2 \mathrm dx=\pi r^2-z^2 \mathrm dx$
+
+$\frac{\int_0^r z (\pi r^2-z^2 )\mathrm dx}{\int_0^r \pi (r^2-z^2) \mathrm dx}$
+
+$\frac{\int_0^r  zr^2-z^3 \mathrm dx}{\int_0^r  r^2 \mathrm dx}$
+
+$\frac{ \frac{ r^2 z^2}{2}-\frac{z^4}{4} \big|_0^r}{ r^2 z-\frac{z^3}{3}\big|_0^r}$
+$=\frac{\frac{1}{4}r^4}{\frac{2}{3}r^3}$
+$=\frac{3}{8}r$
+
+# Rocket Science AP
+
+ ` ∆ ` $\uparrow v(t)$
+ ` || `
+ ` || ` -> $M=m(t)$
+ ` /\ `
+ `//\\`
+ $\downarrow v_{ex}$
+
+In time $dt$, rocket propels fuel $|dm|$ backwards at velocity $v-v_{ex}$
+
+No ext. force.
+
+$p(t)=p(t+dt)$
+$v(M+m)=(M+m+dm)(v+dv)+(-dm)(v-v_{ex})$
+
+

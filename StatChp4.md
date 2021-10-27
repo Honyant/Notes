@@ -135,3 +135,8 @@ If some people are in different levels of math you could
 **Account for variability** created by differences in class level by subtracting the difference between the 3 blocks.
 Precal improved 86-20=60 more than Geo, so subtract 66 from each precal value.
 $x_{new}=x_{old}- (\bar x-\overline{lowest})$
+
+
+**Margin of error:** how far away we expect the parameter to be from the actual parameter.
+
+Scope of inference:
