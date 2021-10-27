@@ -1,5 +1,7 @@
 # Market Failure
 
+- definition: When MSC and MSB are not equal. (when we are not at the socially optimal amount of allocation)
+
 - [Market Failure](#market-failure)
   - [Vocab](#vocab)
   - [Ways to identify and address market failure](#ways-to-identify-and-address-market-failure)
