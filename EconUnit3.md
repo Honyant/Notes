@@ -31,7 +31,8 @@ If we consider the new social equilibrium, its the intersection of MSC and MPB.
 
 Need to tax polluting companies to make them aware of the cost.
 
-Negative externality: Steel being produced creates the negative externality of pollution.'
+A negative externality exists when a cost spills over to a third party. 
+A positive externality exists when a benefit spills over to a third-party.
 
 A **Pigouvian tax** solves the problem of a negative externality just with a simple tax.
 
@@ -92,7 +93,7 @@ In a sense, implement policies that make it possible for private entities to sol
 ||Rivalrous in consumption|Non-rivalrous in consumption|
 |---|---|---|
 |Excludable|**Private goods** (chewing gum)|**Artificially scarce goods** (swimmming pool, golf course)|
-|Non-Exludable|**Common access goods** (Congested Roads, fish in the sea)| **Public goods** (lighthouse, military)|
+|Non-Exludable|**Common access goods** (Congested Roads, fish in the sea)| **Public goods** (lighthouse, national defense)|
 
 Government can supply public goods.
 
