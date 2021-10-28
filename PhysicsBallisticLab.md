@@ -1,3 +1,4 @@
+Anthony Wang
 # Ballistics Lab
 
 ## Introduction

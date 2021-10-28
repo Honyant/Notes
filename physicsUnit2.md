@@ -1,4 +1,20 @@
-# Work and Energy
+# Unit 2
+
+- [Unit 2](#unit-2)
+  - [Work and Energy](#work-and-energy)
+    - [Work definition(general): variable form, every path)](#work-definitiongeneral-variable-form-every-path)
+    - [Newton's second law for work](#newtons-second-law-for-work)
+  - [Momentum](#momentum)
+    - [Impulse momentum theorem](#impulse-momentum-theorem)
+      - [Problem](#problem)
+  - [1D elastic collisions](#1d-elastic-collisions)
+  - [Center of mass](#center-of-mass)
+  - [Rocket Science AP](#rocket-science-ap)
+  - [Simple Harmonic Motion](#simple-harmonic-motion)
+    - [Mass on spring](#mass-on-spring)
+    - [Pendulum](#pendulum)
+  
+## Work and Energy
 
 **Energy** - ability to do work
 $1\mathrm J=1 \frac{\mathrm {kg} \space \mathrm m^2}{\mathrm s^2}$
@@ -24,7 +40,7 @@ $-7=|F||S| \cos \theta$
 
 $$\left(\cos^{-1}\left(\frac{-7}{(\sqrt{4+25}*\sqrt{16+9})}\right)\right) = 105.06848815949222 \space \mathrm{degrees}$$
 
-## Work definition(general): variable form, every path)
+### Work definition(general): variable form, every path)
 
 Path integral over a vector field
 $$W=\int \vec F\cdot \mathrm d \vec s$$
@@ -51,7 +67,7 @@ $dy= 2x dx$
 
 $\int y dx+ \int 2x dy =\int x^2 dx+\int 2x 2x dx= \int_0^1 5x^2 dx=\frac{5}{3} J$
 
-## Newton's second law for work
+### Newton's second law for work
 
 
 Work by net force $W_{net}= \int F_{net} \mathrm dx = \int (ma) \mathrm dx$
@@ -128,13 +144,13 @@ $ F=-\frac{\mathrm d U}{ \mathrm dt}=-32x^{-5}+x^{-2}$
 $0=-32x^{-5}+x^{-2}$
 $x=\sqrt[3]{32}$
 
-### Momentum
+## Momentum
 
 $\vec p= m \vec v$
 $\vec p_{tot}= \sum \vec p_n$
 $ \frac{\mathrm d \vec p}{ \mathrm dt}= m \frac{\mathrm d \vec v}{ \mathrm dt}$
 
-#### Impulse momentum theorem
+### Impulse momentum theorem
 
 $$\vec J = \int \vec F_{net} \mathrm dt=\Delta \vec p$$
 
@@ -163,7 +179,7 @@ $m_a v_{a1}+m_b v_{b1}=(m_a+m_b)v$
 
 $v=1.098$
 
-## 1D elastic collisions: 
+## 1D elastic collisions 
 2 equations, can have 2 unknowns
 $m_1v_{1i}+m_2v_{2i}=m_1v_{1f}+m_2v_{2f}$
 $\frac{1}{2}m_1v_{1i}^2+\frac{1}{2}m_2v_{2i}^2=\frac{1}{2}m_1v_{1f}^2+\frac{1}{2}m_2v_{2f}^2$
@@ -177,7 +193,7 @@ divide
 $$\boxed{v_{2f}-v_{1f}=-(v_{2i}-v_{1i})}$$
 $\star$ relative velocity flips sign
 
-# Center of mass
+## Center of mass
 
 
 $\vec r_{cm}= \frac{\sum_i m_i \vec r_i}{\sum_i m_i}$
@@ -211,7 +227,7 @@ $\frac{ \frac{ r^2 z^2}{2}-\frac{z^4}{4} \big|_0^r}{ r^2 z-\frac{z^3}{3}\big|_0^
 $=\frac{\frac{1}{4}r^4}{\frac{2}{3}r^3}$
 $=\frac{3}{8}r$
 
-# Rocket Science AP
+## Rocket Science AP
 
  ` ∆ ` $\uparrow v(t)$
  ` || `
@@ -226,5 +242,47 @@ No ext. force.
 
 $p(t)=p(t+dt)$
 $v(M+m)=(M+m+dm)(v+dv)+(-dm)(v-v_{ex})$
+solve the diffeq:
+$v(t)=
+## Simple Harmonic Motion
+
+Property: position, velocity, and acceleration are all sinusoidal.
+
+Definition: linear restoring force
+
+Potential energy function is proportional to displacement squared.
+
+It approximates all small amplitude oscillations.
+
+Hooke's law: $F=-kx$
+its crucial that $a \propto -x$
 
 
+**Recognize this** General differential equation for simple harmonic motion:$$\boxed{\frac{d^2q}{dt^2}=-\omega^2q}$$
+
+Solution is
+$\boxed{q(t)=A\sin(\omega t+\phi)}$ or cosine
+
+- angular frequency $\omega$
+- phase shift $\phi$
+- amplitude $A$
+
+### Mass on spring
+
+$F=ma$
+$m \frac{\mathrm d^2x}{\mathrm dt^2}=-kx$
+$\frac{\mathrm d^2x}{\mathrm dt^2}=\frac{k}{m}x$
+$$\omega=\sqrt{\frac{k}{m}}$$
+$$T_p=2\pi \sqrt{\frac{m}{k}}$$
+
+### Pendulum
+
+$s=l\theta$
+$F_t=ma_t$
+$-mg\sin\theta=m\frac{\mathrm d^2s}{\mathrm dt^2}$
+$\frac{\mathrm d^2s}{\mathrm dt^2}=-g\sin(\frac{s}{l})$
+Which we can't solve for $s(t)$
+
+With a small angle approximation of $\sin(x) \approx x$, we have $ \frac{\mathrm d^2s}{\mathrm dt^2}=-\frac{g}{l}s$
+
+Solving the diffeq, we get $w=\sqrt{\frac{g}{l}}$ and $T_p=2\pi \sqrt{\frac{l}{g}}$
