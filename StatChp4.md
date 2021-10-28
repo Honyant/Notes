@@ -7,6 +7,7 @@
   - [More vocab](#more-vocab)
 - [Experimental design](#experimental-design)
     - [Example](#example)
+  - [Scope of inference](#scope-of-inference)
 
 ## Vocab
 
@@ -139,4 +140,17 @@ $x_{new}=x_{old}- (\bar x-\overline{lowest})$
 
 **Margin of error:** how far away we expect the parameter to be from the actual parameter.
 
-Scope of inference:
+## Scope of inference
+
+|||Randomly assigned to groups|Randomly assigned to groups|
+|-|-|-|-|
+|||yes|no|
+|individual randomly selects|yes|infer causation to the population|infer to population, just facts-> "the mean weight for the population is about..."|
+|individual randomly selects|no|infer causation to the sample members and to very similar individuals|no inference. I can just describe the sample(pretty useless)|
+
+4 principles of experimental design:
+
+1. comparison
+2. random assignment
+3. control as many other variables as possible
+4. replication

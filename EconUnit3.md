@@ -103,6 +103,7 @@ Government can supply public goods.
 
 **Nonexcludable:** you can't prevent someone from having access if they don't pay. (these goods are often underproduced)
 
+---
 **Nonrivalrous in consumption:** more than one person can consume the same good at the same time.
 
 **Rivalrous in consumption:** someone consuming prevents someone else from consuming the same good at the same time.
