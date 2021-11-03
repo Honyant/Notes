@@ -154,3 +154,4 @@ $x_{new}=x_{old}- (\bar x-\overline{lowest})$
 2. random assignment
 3. control as many other variables as possible
 4. replication
+

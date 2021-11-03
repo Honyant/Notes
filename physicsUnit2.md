@@ -13,6 +13,8 @@
   - [Simple Harmonic Motion](#simple-harmonic-motion)
     - [Mass on spring](#mass-on-spring)
     - [Pendulum](#pendulum)
+    - [Spring with gravity](#spring-with-gravity)
+      - [Multiple springs](#multiple-springs)
   
 ## Work and Energy
 
@@ -272,8 +274,8 @@ $\boxed{q(t)=A\sin(\omega t+\phi)}$ or cosine
 $F=ma$
 $m \frac{\mathrm d^2x}{\mathrm dt^2}=-kx$
 $\frac{\mathrm d^2x}{\mathrm dt^2}=\frac{k}{m}x$
-$$\omega=\sqrt{\frac{k}{m}}$$
-$$T_p=2\pi \sqrt{\frac{m}{k}}$$
+$$\boxed{\omega=\sqrt{\frac{k}{m}}}$$
+$$\boxed{T_p=2\pi \sqrt{\frac{m}{k}}}$$
 
 ### Pendulum
 
@@ -286,3 +288,45 @@ Which we can't solve for $s(t)$
 With a small angle approximation of $\sin(x) \approx x$, we have $ \frac{\mathrm d^2s}{\mathrm dt^2}=-\frac{g}{l}s$
 
 Solving the diffeq, we get $w=\sqrt{\frac{g}{l}}$ and $T_p=2\pi \sqrt{\frac{l}{g}}$
+
+### Spring with gravity
+
+$mg=k \Delta L$
+
+$\sum F=k(\Delta L-\Delta y)-mg=m \frac{\mathrm d^2y}{\mathrm dt^2}$
+$ k \Delta L-mg- k \Delta y=m \frac{\mathrm d^2y}{\mathrm dt^2}$
+$ -k \Delta y=m \frac{\mathrm d^2y}{\mathrm dt^2}$
+
+$\Delta U = (mg \Delta y + \frac{1}{2} k (\Delta L -\Delta  y)^2)-\frac{1}{2} k \Delta L^2$
+
+simplifies to  $\Delta U = \frac{1}{2} k \Delta y^2$
+
+gravity changes equilibrium to a position $\Delta L$, then ignore gravity
+
+$E_{tot}= \frac{1}{2} kx^2+\frac{1}{2} mv^2$
+
+$\frac{1}{2}m v_{max}^2=\frac{1}{2} kA^2$
+$v_{max}=\sqrt{\frac{k}{m}} A= \omega A$
+
+We can also see this in the amplitude of $v(t)$ where $v(t)=- \omega A \sin(\omega t+ \phi)$
+
+#### Multiple springs
+
+find equivalent spring constant $k_{eq}$
+
+**In series**
+$F_a= K_{eq}(\Delta x_1+\Delta x_2)$
+
+$F_n = k_2 \Delta x_2$
+they are in equilibrium so at the connecting point,
+
+$k_1 \Delta x_1= k_2 \Delta x_2$
+
+$\frac{F_a}{k_2}+\frac{F_a}{k_1}=\frac{F_a}{K_{eq}}$
+$K_s= \frac{1}{\frac{1}{k_1}+\frac{1}{k_2}}=\frac{k_1k_2}{k_1+k_2}$
+
+
+**In parallel**
+$F_a= K_{eq}\Delta x$
+$F_n= k_1 \Delta x + k_2 \Delta x$
+$K_{eq}=k_1+k_1$
