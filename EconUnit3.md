@@ -10,6 +10,9 @@
     - [Market friendly](#market-friendly)
     - [Market pure](#market-pure)
   - [Types of goods](#types-of-goods)
+- [Theory of the firm](#theory-of-the-firm)
+  - [Intro to costs, revenues, profits](#intro-to-costs-revenues-profits)
+    - [Types of Profit!!](#types-of-profit)
 
 ## Vocab
 
@@ -109,3 +112,39 @@ Government can supply public goods.
 **Rivalrous in consumption:** someone consuming prevents someone else from consuming the same good at the same time.
 
 Common goods: leads to the tragedy of the commons.
+# Theory of the firm
+
+## Intro to costs, revenues, profits
+profit=$\pi=T_R-T_C$
+Revenue=What comes in $=P \times Q$
+Cost=What goes out
+
+Accounting costs $\neq$ economic costs
+
+**Firm** is an enterprise that brings in land labour capital and entrepreneurship.
+tries to make a profit.
+
+![picture 1](https://i.imgur.com/12TnNLU.png)  
+
+MAXIMIZE PROFIT by minimizing COSTS and maximizing REVENUE.
+
+**Explicit costs:** Direct costs you see on an accounting sheet.
+**Implicit costs:** Opportunity costs.
+$T_C=E_C+I_C$
+
+### Types of Profit!!
+**Accounting profit:**  $T_R-E_C$ Total revenue minus explicit costs. 
+
+**Economic profit** (we want this): $T_R-T_C$ This is also accounting profit-implicit costs.
+**Normal profit:** $\pi=0=T_R-T_C$ If a firm makes this, it has a reason to stay in business. $T_R=T_C$
+**Abnormal profit/Supernormal profit:** Economic profits made in excess of normal profit.
+
+
+- Farmer Brown typically earns $20/hour for banjo lessons
+- One day, he spends 10 hours planting $100 worth of seeds.
+- What is his opportunity cost/implicit cost?200 dollars of banjo
+- What is his explicit cost/accounting cost? 200-100
+- If the seeds yield $200 worth of crop, what sort of profit does he make?100
+- 
+- Accounting profit? 100
+- Economic profit?-100
