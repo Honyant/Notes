@@ -18,4 +18,5 @@ The function $f(x)=6x$ has infinitely many antiderivatives.
 $F(x)=3x^2+C$
 $F$ is the antiderivative of $f$
 
-9/400-4
+# Fundamental theorem of Calculus
+Derivative of the anti-derivative of a function is the original function

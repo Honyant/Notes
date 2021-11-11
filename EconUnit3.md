@@ -13,6 +13,7 @@
 - [Theory of the firm](#theory-of-the-firm)
   - [Intro to costs, revenues, profits](#intro-to-costs-revenues-profits)
     - [Types of Profit!!](#types-of-profit)
+  - [From Production to Costs](#from-production-to-costs)
 
 ## Vocab
 
@@ -148,3 +149,25 @@ $T_C=E_C+I_C$
 - 
 - Accounting profit? 100
 - Economic profit?-100
+
+$MR=\frac{\Delta T_R}{\Delta Q}$
+
+optimal quantity of goods to be produced at $\frac{\mathrm d T_R}{ \mathrm dQ}=\frac{\mathrm d T_C}{ \mathrm dQ}$
+
+
+As you add more workings, the marginal utility increases until it reaches a maximum at a certain worker.
+
+$\frac{\mathrm d T_P}{ \mathrm dQ}=MP=0$ Maximum total product.
+
+![picture 1](https://i.imgur.com/vOrH9P1.png)  
+
+
+
+## From Production to Costs
+
+
+**Fixed Costs** - Typically going to be land (T) and Capital (K)
+
+**Variable Costs** - Typically going to be labor costs (L)
+
+**Total Costs** - 
