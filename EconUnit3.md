@@ -166,8 +166,18 @@ $\frac{\mathrm d T_P}{ \mathrm dQ}=MP=0$ Maximum total product.
 ## From Production to Costs
 
 
-**Fixed Costs** - Typically going to be land (T) and Capital (K)
+**Fixed Costs (TFC)** - Typically going to be land (T) and Capital (K)
 
-**Variable Costs** - Typically going to be labor costs (L)
+**Variable Costs (TVC)** - Typically going to be labor costs (L)
 
-**Total Costs** - 
+**Total Costs (TC)** - TFC + TVC
+
+Produce until marginal revenue=marginal costs
+
+**Why the Max profit is at $M_C=M_R$**
+Profit $\pi=T_R-T_C$
+We want to find the max profit, which is found when $\frac{ d \pi}{dQ}=0$
+$\frac{d \pi}{dQ}=\frac{d T_R}{d Q}-\frac{d T_C}{d Q}$
+$\therefore \frac{d T_R}{d Q}=\frac{d T_C}{d Q}$ aka $M_C=M_R$
+
+System will evolve towards everyone having normal profit, because thats where the equilibrium is.

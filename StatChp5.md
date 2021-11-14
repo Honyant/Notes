@@ -27,3 +27,35 @@ Or assign 1 as correct and 2 as incorrect. Randomly generate 12 values from 1-12
 
 Define complement:
 $P(1^C)=1-P(1)$
+
+
+
+
+Testfor intdependence if  $ P(A|B)=P(A)$, then A is independent of B.
+
+
+
+
+
+||A|not A| Total
+-|-|-|-
+B| | |30
+Not B| | |70
+Total| 60|40 | 100
+
+
+**Mutually exclusive**
+||A|not A| Total
+-|-|-|-
+B| 0| 30|30
+Not B| 60|10 |70
+Total| 60|40 | 100
+
+**Independent**
+||A|not A| Total
+-|-|-|-
+B| 18| 12|30
+Not B| 42| 28|70
+Total| 60|40 | 100
+
+

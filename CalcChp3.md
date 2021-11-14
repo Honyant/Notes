@@ -20,3 +20,27 @@ $F$ is the antiderivative of $f$
 
 # Fundamental theorem of Calculus
 Derivative of the anti-derivative of a function is the original function
+
+
+**FTC pt.2**
+If $f$ in cont. on $[a,b]$, them $\int_{a}^{b} f(x) dx = F(b)-F(a)$ where $F$ is any antiderivative of $f$.
+
+Proof:
+let $g(x)=\int_a^x f(t) dt$
+Then $g'(x)=f(x)$
+Then $g(x)$ is an antiderivative of $f(x)$
+
+$F(x)=g(x)+C$
+$\int_{a}^{b} f(t) dt = \int_a^b f(t) dt - \int_a^a f(t) dt$
+$=g(b)-g(a)$
+$=(F(b)-C)-(F(a)-C)$
+$=F(b)-F(a)$
+
+
+
+#### New Notation
+
+
+$\int_{-2}^1 x^2+x dx= (\frac{x^3}{3}+\frac{x^2}{2}) \bigg |_{-2}^1$
+$=(\frac{1}{3}+\frac{1}{2})-(-\frac{8}{3}+\frac{4}{2})=\frac{3}{2}$
+
