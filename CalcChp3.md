@@ -36,11 +36,18 @@ $=g(b)-g(a)$
 $=(F(b)-C)-(F(a)-C)$
 $=F(b)-F(a)$
 
-
-
 #### New Notation
-
 
 $\int_{-2}^1 x^2+x dx= (\frac{x^3}{3}+\frac{x^2}{2}) \bigg |_{-2}^1$
 $=(\frac{1}{3}+\frac{1}{2})-(-\frac{8}{3}+\frac{4}{2})=\frac{3}{2}$
 
+### Trapezoidal Integration
+
+$\int_a^b f(x) dx \approx \Delta x_1 \frac{f(x_0)+f(x_1)}{2}+\Delta x_2 \frac{f(x_1)+f(x_2)}{2}+\cdots+\Delta x_n \frac{f(x_{n-1})+f(x_n)}{2}$
+
+**Trapezoidal rule:** If $\Delta x$ are constant, then 
+$\int_a^b f(x) dx=\frac{\Delta x}{2} (f(x_0)+2f(x_1)+2f(x_2)+...+2f(x_{n-1})+f(x_n))$
+
+### U Substitution
+
+$du=\frac{du}{dx}\cdot dx$

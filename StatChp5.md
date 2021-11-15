@@ -28,14 +28,7 @@ Or assign 1 as correct and 2 as incorrect. Randomly generate 12 values from 1-12
 Define complement:
 $P(1^C)=1-P(1)$
 
-
-
-
-Testfor intdependence if  $ P(A|B)=P(A)$, then A is independent of B.
-
-
-
-
+Test for independence if  $ P(A|B)=P(A)$, then A is independent of B.
 
 ||A|not A| Total
 -|-|-|-
@@ -58,4 +51,27 @@ B| 18| 12|30
 Not B| 42| 28|70
 Total| 60|40 | 100
 
+For Independent:
+![picture 1](https://i.imgur.com/BAzo8x5.png)
+$P(A \cup B)=1+2+3$
+$P(A \cap B)=2$
+$P(A)=1+2$
+$P(B)=3+2$
 
+### Conditional Probability
+U can use tree diagrams to represent this situation.
+
+Ex: prob someone hit snooze given they are late.
+$P(A|B)=\frac{P(A\cap B)}{P(B)}$
+$P(A \cap B)=P(A)P(B|A)$
+Tree diagram as are good for conditional probability.
+
+
+
+
+$\frac{0.05*0.99}{0.95*0.03+0.05*0.99}$
+
+
+If 5% false positive rate among 100 people, then prob of at least 1 false positive is $1-(1-0.05)^{100}=0.994$
+
+Lets say we have two locations that are really close to each other, and they are not independent, then we don't have enough info to determine $P(A \cap B)$.s

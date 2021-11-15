@@ -55,3 +55,9 @@ $f = \frac{t r_1}{r_2}$
 force_x: $T \cos(\theta) - f = 0$
 $cos(\theta) = \frac{r_1}{r_2}$
 $\theta = \cos^{-1}(\frac{r_1}{r_2})$
+
+# Rolling without slipping
+$\Delta x_{cm}= R \Delta \theta$
+$v_{cm}= R \omega$
+$a_{cm}= R \alpha$
+
