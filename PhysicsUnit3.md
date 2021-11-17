@@ -97,3 +97,35 @@ $\frac{2 M}{R^2} \int_0^R r^3 \mathrm dr$
 $\frac{2 M}{R^2} \frac{R^4}{4}$
 $\frac{M R^2}{2}$
 
+#### Hollow sphere with thickness
+$d=r sin\theta$
+$dm=\rho DV$
+$\rho=\frac{M}{\frac{4}{3}\pi (R_2^2-R_1^2)}$
+$dV=dr \cdot rd\theta \cdot rsin\theta d\phi$
+
+$\iiint r^2 sin^2(\theta) \rho r^2 sin(\theta) \mathrm d\phi \mathrm dr \mathrm d\theta$
+
+$$\rho \int_{0}^{\pi} \int_{R_1}^{R_2} \int_0^{2\pi} r^4 sin^3(\theta) \mathrm d\phi \mathrm dr \mathrm d\theta$$
+
+
+$$\rho \int_{0}^{\pi} \int_{R_1}^{R_2} 2\pi r^4 sin^3(\theta)  \mathrm dr \mathrm d\theta$$
+$$2 \pi \rho \int_{0}^{\pi}  sin^3(\theta) \frac{R_2^5-r_1^5}{5}\mathrm d\theta$$
+$$2 \pi \rho  \frac{R_2^5-r_1^5}{5} \int_{0}^{\pi}  sin^3(\theta) $$
+
+$$2\rho \frac{R_2^5-r_1^5}{5} \int_{0}^{\pi}  sin^3(\theta) $$
+
+$$ 2\frac{4}{3} \pi \rho \frac{R_2^5-r_1^5}{5} $$
+
+$$ \frac{4}{3} \pi \frac{M}{\frac{4}{3}\pi (R_2^2-R_1^2)} \frac{R_2^5-r_1^5}{5} $$
+
+$$\boxed{I=\frac{2}{5} M \frac{R_2^5-r_1^5}{R_2^2-R_1^2}}$$
+
+Solid Sphere $(R_1=0, R_2=R)$:
+$$\boxed{I=\frac{2}{5} M R^2}$$
+
+Spherical Shell $(R_1=R_2=R)$:
+
+$$\lim_{R_1\to R_2} \frac{R_2^5-R_1^5}{R_1^2-R_1^2}$$
+$$\lim _{R_1\to R_2} \frac{-5R_1^4}{-3R_1^2}=\frac{5}{3}R_2^2$$
+
+$$\boxed{I=\frac{2}{3} M R^2}$$
