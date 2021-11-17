@@ -14,6 +14,7 @@
   - [Intro to costs, revenues, profits](#intro-to-costs-revenues-profits)
     - [Types of Profit!!](#types-of-profit)
   - [From Production to Costs](#from-production-to-costs)
+    - [Economies of Scale](#economies-of-scale)
 
 ## Vocab
 
@@ -181,3 +182,10 @@ $\frac{d \pi}{dQ}=\frac{d T_R}{d Q}-\frac{d T_C}{d Q}$
 $\therefore \frac{d T_R}{d Q}=\frac{d T_C}{d Q}$ aka $M_C=M_R$
 
 System will evolve towards everyone having normal profit, because thats where the equilibrium is.
+
+
+
+![picture 3](https://i.imgur.com/ANbLPx0.png)  
+
+### Economies of Scale
+![picture 4](https://i.imgur.com/ICGAA9d.png)  

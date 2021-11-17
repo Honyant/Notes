@@ -56,8 +56,44 @@ force_x: $T \cos(\theta) - f = 0$
 $cos(\theta) = \frac{r_1}{r_2}$
 $\theta = \cos^{-1}(\frac{r_1}{r_2})$
 
-# Rolling without slipping
+## Rolling without slipping
 $\Delta x_{cm}= R \Delta \theta$
 $v_{cm}= R \omega$
 $a_{cm}= R \alpha$
+
+## Moment of Inertia
+
+$I_tot=\sum_i m_i r_i^2$
+$I=\int r^2 \mathrm dm$
+
+$$\int_{-\frac{l}{2}}^{\frac{l}{2}} x^2 \frac{m}{l} \mathrm dx$$
+
+$$ \frac{m}{l} \frac{1}{3} x^3 \bigg |_{-\frac{l}{2}}^{\frac{l}{2}}$$
+
+$$ ml^2 \frac{1}{3} 2 \frac{1}{8}$$
+$$ ml^2 \frac{1}{12} $$
+
+#### Rod with nonuniform density
+
+Find moment of inertia of thin around extended from x=0 to x=l with linear density $\lambda=\gamma \frac{x^3}{l^3}$ about axis perp to rod through x=0. Find answer in terms of M and L.
+
+$M=\int_0^L \gamma \frac{x^3}{L^3} \mathrm dx$
+$M=\frac{\gamma}{L^3} \frac{L^4}{4}=4\frac{M}{L}$
+
+$\int_0^L x^2 \gamma \frac{x^3}{L^3} \mathrm dx$
+$\frac{\gamma}{L^3} \frac{L^6}{6}$
+$\frac{4\frac{M}{L} L^3}{6}$
+$=\frac{2ML^2}{3}$
+
+#### Uniform disk M, R around center of mass
+$dA=2\pi r dr$
+
+$dm=\sigma dA$
+$\sigma=\frac{M}{\pi R^2}$
+$dm=\frac{M}{\pi R^2} 2 \pi r dr=\frac{2 M r}{R^2} dr$
+
+$\int_0^R r^2 \frac{2 M r}{R^2} \mathrm dr$
+$\frac{2 M}{R^2} \int_0^R r^3 \mathrm dr$
+$\frac{2 M}{R^2} \frac{R^4}{4}$
+$\frac{M R^2}{2}$
 
