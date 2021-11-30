@@ -189,3 +189,8 @@ System will evolve towards everyone having normal profit, because thats where th
 
 ### Economies of Scale
 ![picture 4](https://i.imgur.com/ICGAA9d.png)  
+
+
+marginal cost curve is just marginal product curve flipped over y=k 
+
+

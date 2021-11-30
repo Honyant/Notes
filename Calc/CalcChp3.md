@@ -50,6 +50,23 @@ $\int_a^b f(x) dx=\frac{\Delta x}{2} (f(x_0)+2f(x_1)+2f(x_2)+...+2f(x_{n-1})+f(x
 
 ### U Substitution
 
+Proof:
+We have u and x, and they are related by
 $du=\frac{du}{dx}\cdot dx$
+$dx=du\frac{1}{\frac{dx}{du}}$
+Therefore, when we see a fucntion in this form, we can substitute $dx$ for $du$
+$\int f(u) \frac{1}{\frac{du}{dx}} dx$
+$=\int f(u) du$
+
+### Average velocity
+
+$$\frac{\int_a^b v(t) dt}{b-a}$$
 
 
+
+
+### FTC Stuff
+By FTC,
+
+$f(b)=f(a)+\int_a^b f'(x) dx$
+The proof is left as an exercise for the reader.

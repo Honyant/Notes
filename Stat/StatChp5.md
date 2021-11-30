@@ -75,3 +75,7 @@ $\frac{0.05*0.99}{0.95*0.03+0.05*0.99}$
 If 5% false positive rate among 100 people, then prob of at least 1 false positive is $1-(1-0.05)^{100}=0.994$
 
 Lets say we have two locations that are really close to each other, and they are not independent, then we don't have enough info to determine $P(A \cap B)$.s
+
+
+
+The probability is so small that it this is unlikely to occur by chance. Thus there is convincing evidence that 40% is too high. Don't put 5% in answer.

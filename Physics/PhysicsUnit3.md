@@ -116,7 +116,7 @@ $$2\rho \frac{R_2^5-r_1^5}{5} \int_{0}^{\pi}  sin^3(\theta) $$
 
 $$ 2\frac{4}{3} \pi \rho \frac{R_2^5-r_1^5}{5} $$
 
-$$ \frac{4}{3} \pi \frac{M}{\frac{4}{3}\pi (R_2^2-R_1^2)} \frac{R_2^5-r_1^5}{5} $$
+$$ \frac{4}{3} \pi \frac{M}{\frac{4}{3}\pi (R_2^2-R_1^2)} \frac{R_2^5-R_1^5}{5} $$
 
 $$\boxed{I=\frac{2}{5} M \frac{R_2^5-r_1^5}{R_2^2-R_1^2}}$$
 
@@ -129,3 +129,38 @@ $$\lim_{R_1\to R_2} \frac{R_2^5-R_1^5}{R_1^2-R_1^2}$$
 $$\lim _{R_1\to R_2} \frac{-5R_1^4}{-3R_1^2}=\frac{5}{3}R_2^2$$
 
 $$\boxed{I=\frac{2}{3} M R^2}$$
+
+### Parallel Axis Theorem
+
+Relates I about axis through COM to I about a parallel axis
+![picture 5](https://i.imgur.com/n4AFmDS.png)  
+
+**Derivation:**
+P is $(a,b)$ away
+$$I_{CM}=\int(x^2+y^2)dm$$
+
+$$I_p=\int((x-a)^2+(y-b)^2) dm$$
+
+$$I_p=\int(x^2-2ax+a^2+y^2-2by+b^2) dm$$
+
+$$I_p=\int(x^2+y^2) dm-2a \int(x) dm-2b\int(y) dm + \int (a^2+b^2) dm$$
+
+$$I_p=I_{CM}-0-0+d^2 \int dm$$
+
+$$I_p=I_{CM}+md^2$$
+
+#### Example
+Rod from 0 to l of mass m, spherical bob at the far end radius l/6 mass m/2. axis at 0
+
+1/3 ml^2+(2/5 m/2 (l/6)^2+m(7l/6)^2)
+17/10 l^2m
+
+
+### Rotational Kinetic Energy
+$K_{rot}=\sum_i{\frac{1}{2}m_i{v_i}^2}$
+$=\frac{1}{2}\sum_i{m_i r_i^2 \omega^2}$
+$=\frac{1}{2}I \omega^2$
+
+
+Treat rolling as pure rotation+pure translation
+$K=\frac{1}{2}mv^2+\frac{1}{2}I\omega^2$
