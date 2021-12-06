@@ -155,12 +155,23 @@ Rod from 0 to l of mass m, spherical bob at the far end radius l/6 mass m/2. axi
 1/3 ml^2+(2/5 m/2 (l/6)^2+m(7l/6)^2)
 17/10 l^2m
 
-
 ### Rotational Kinetic Energy
 $K_{rot}=\sum_i{\frac{1}{2}m_i{v_i}^2}$
 $=\frac{1}{2}\sum_i{m_i r_i^2 \omega^2}$
 $=\frac{1}{2}I \omega^2$
 
-
 Treat rolling as pure rotation+pure translation
 $K=\frac{1}{2}mv^2+\frac{1}{2}I\omega^2$
+
+## Angular Momentum
+
+$L=\vec{p} \times \vec{r}$
+nutron star
+
+vf=(v'cost-v) m/M, v'sint m/M
+
+
+
+
+$w= m v_f \times l$
+$w=m l (v_0-v' cos t)$ 
