@@ -175,3 +175,12 @@ vf=(v'cost-v) m/M, v'sint m/M
 
 $w= m v_f \times l$
 $w=m l (v_0-v' cos t)$ 
+
+# Gravity
+## Universal Law of Gravitation
+
+$F_g=\frac{Gm_1m_2}{r^2}(-\hat{r})$
+
+$G=6.67408*10^{-11} \frac{Nm^2}{kg^2}$
+
+gravitational acceleration:

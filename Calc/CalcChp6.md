@@ -22,3 +22,11 @@ Definition: $a^x=\lim_{r\to x} a^r$ where $r$ is rational
 
 e is the number such that
 $\lim_{h\to 0} \frac{e^h-1}{h}=1$
+
+
+$\frac{d}{dx} a^x=a^x \ln(a)$
+
+$\frac{d}{dx} \ln(x) = \frac{1}{x}$ only for x>0
+$\frac{d}{dx} \ln(|x|) = \frac{1}{x}$
+
+$\int \tan(x) dx = \int \frac{\sin(x)}{\cos(x)} dx$
