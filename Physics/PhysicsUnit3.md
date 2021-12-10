@@ -166,6 +166,8 @@ $K=\frac{1}{2}mv^2+\frac{1}{2}I\omega^2$
 ## Angular Momentum
 
 $L=\vec{p} \times \vec{r}$
+
+$L=mvr\sin\theta$
 nutron star
 
 vf=(v'cost-v) m/M, v'sint m/M
@@ -184,3 +186,94 @@ $F_g=\frac{Gm_1m_2}{r^2}(-\hat{r})$
 $G=6.67408*10^{-11} \frac{Nm^2}{kg^2}$
 
 gravitational acceleration:
+\
+## Kepler's Laws
+Huge paradigm shift in the laws of physics:
+
+### 1. Planets orbit in ellipses with the sun as one focus
+
+ellipse:
+$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$
+
+$r(\theta)=\frac{a(1-e^2)}{1+e\cos\theta}$
+$e=$eccentricity
+
+### 2. Planets sweep out equal areas of the ellipse in equal time
+
+consequence of conservation of angular momentum:
+
+### 3. Period is proportional to a^1.5
+
+$T^2=a^3$
+yr  = au
+
+GmM/r^2=mv^2/r
+
+$v=\sqrt{\frac{Gm}{r}}$
+
+# g for spherically symmetric mass distribution
+
+generally, $\mathrm d\vec{g}=\frac{G\mathrm dm}{r^2}(-\hat{r})$
+
+Thin, hollow shell of mass m, radius R
+
+
+
+![picture 2](https://i.imgur.com/1yMmK7F.png)  
+
+
+
+by law of cosines,
+$R^2=s^2+r^2-2sr\cos\theta$
+$s^2=R^2-r^2-2sr\cos\phi$
+$+2rR\sin\phi=2s ds$
+
+$dm=\rho da$
+$\rho=\frac{m}{4\pi R^2}$
+
+$R \sin\theta$ 
+$R d\phi$
+$da=2\pi R \sin\theta R d\phi$
+
+
+![picture 3](https://i.imgur.com/BX58W1q.png)  
+
+By symmetry, $g_y=g_z=0$
+
+
+$g=g_x=\int d g_x$
+
+$dg_x=\frac{GM2\pi R^2\sin\theta d\phi}{4\pi R^2S^2}*\cos\theta$
+$=\frac{GM2\pi R^2}{4\pi R^2S^2}\frac{2s ds}{2rR}\frac{s^2+r^2-R^2}{2sR}$
+$g=\frac{GM}{4r^2R}\int (1+\frac{r^2-R^2}{s^2}) ds$
+
+$g_{out}=\int_{r-R}^{r+R} \cdots=$
+
+$g_{in}=\int_{R-r}^{r+R} \cdots=$ 
+
+
+$g_{out}=\frac{GM}{4r^2R}(s-\frac{r^2-R^2}{s})|_{r-R}^{r+R}=\frac{GM}{r^2}$
+
+$g_{in}=\frac{GM}{4r^2R}(s-\frac{r^2-R^2}{s})|_{R-r}^{r+R}=0$
+
+proof by wolfram alpha
+
+https://en.wikipedia.org/wiki/Shell_theorem
+
+
+Ex: find g for a sphere of density $\rho = \Omega r^2$, radius R
+
+$g(r>R)=\frac{GM}{r^2}$ by inspection
+
+$g(r<R)=\frac{GM_{enclosed}}{R^2}$ by inspection bcs inside of shell is 0
+
+$M=\int_{0}^{r} dm$
+
+$dm=\rho 4\pi r^2 dr$
+
+$M= \int_0^r \rho 4\pi r^2 dr=\int_0^r \Omega 4 \pi r^4 dr$
+
+
+$g(r>R)=\frac{4\pi \Omega G R^5}{5r^2}$
+
+$g(r<R)=\frac{4\pi \Omega G r^3}{5}$
