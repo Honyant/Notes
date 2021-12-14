@@ -186,7 +186,8 @@ $F_g=\frac{Gm_1m_2}{r^2}(-\hat{r})$
 $G=6.67408*10^{-11} \frac{Nm^2}{kg^2}$
 
 gravitational acceleration:
-\
+$\vec{g}=\frac{Gm}{r^2}(-\hat{r})$
+
 ## Kepler's Laws
 Huge paradigm shift in the laws of physics:
 
@@ -211,9 +212,10 @@ GmM/r^2=mv^2/r
 
 $v=\sqrt{\frac{Gm}{r}}$
 
-# g for spherically symmetric mass distribution
+## g for spherically symmetric mass distribution
 
 generally, $\mathrm d\vec{g}=\frac{G\mathrm dm}{r^2}(-\hat{r})$
+
 
 Thin, hollow shell of mass m, radius R
 
@@ -263,9 +265,9 @@ https://en.wikipedia.org/wiki/Shell_theorem
 
 Ex: find g for a sphere of density $\rho = \Omega r^2$, radius R
 
-$g(r>R)=\frac{GM}{r^2}$ by inspection
+$\boxed{g(r>R)=\frac{GM}{r^2}}$ by inspection (each shell is $\frac{Gm_i}{r^2}$)
 
-$g(r<R)=\frac{GM_{enclosed}}{R^2}$ by inspection bcs inside of shell is 0
+$\boxed{g(r<R)=\frac{GM_{enclosed}}{r^2}}$ by inspection bcs inside of shell is 0
 
 $M=\int_{0}^{r} dm$
 
@@ -277,3 +279,28 @@ $M= \int_0^r \rho 4\pi r^2 dr=\int_0^r \Omega 4 \pi r^4 dr$
 $g(r>R)=\frac{4\pi \Omega G R^5}{5r^2}$
 
 $g(r<R)=\frac{4\pi \Omega G r^3}{5}$
+
+$\boxed{U(r)=-\frac{GMm}{r}}$
+
+## Ex: find U, K , E for obejct in circular orbit of radius r around mass m
+
+u=-GMm/r
+g=v^2/r
+
+GM/r^2=v^2/r
+
+ke=1/2mv^2=1/2 GMm/r
+=-u/2
+
+E=1/2 U
+
+
+
+
+1/2mv^2=GMm/r
+
+
+$v=\sqrt{\frac{2GM}{r}}$
+
+"rock" -jeremy yu when asked about the most abundant element in the solar system.
+

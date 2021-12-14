@@ -30,3 +30,19 @@ $\frac{d}{dx} \ln(x) = \frac{1}{x}$ only for x>0
 $\frac{d}{dx} \ln(|x|) = \frac{1}{x}$
 
 $\int \tan(x) dx = \int \frac{\sin(x)}{\cos(x)} dx$
+
+
+## Logarithmic Differentiation
+
+if you see something like
+$\frac{d}{dx}f(x)^{g(x)}$
+
+Acoording to ms. pool logarithmic differentiation is the only way to solve something of this form- when both the exponent and the base are non-constant.
+
+Then you can rewrite it as
+
+$\frac{d}{dx}e^{ln(f(x)^{g(x)})}=\frac{d}{dx}e^{g(x)ln(f(x))}=e^{g(x)ln(f(x))}*\frac{d}{dx}g(x)ln(f(x))$
+$=f(x)^{g(x)}*(\frac{g(x)f'(x)}{f(x)}+g'(x)ln(f(x)))$
+You dont need to memorize the formula, but you should understand the process.
+
+

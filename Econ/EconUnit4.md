@@ -2,8 +2,8 @@
 
 | |#firms|price control|goods produced|
 |--|--|--|--|
-|Perfectly Competition|Many|no Control|identical
-|Monopolistic Competition| Many|minimal|differentiation
+|Perfect Competition|Many|no Control|identical
+|Imperfect Competition| Many|minimal|differentiation
 |Oligopolistic Competition|Few dominate the most| a lot| identical goods
 |Monopoly|One|total control
 
@@ -53,7 +53,45 @@ DISCRIMINATION IS AMAZING- NO MORE DWL
 ![picture 1](https://i.imgur.com/CRlbIRI.png)  
 
 We have a monopoly
+latex table:
+
 
 |Q | P | VC |
 |-|---|--|
-|1|200｜100｜
+1|200|100
+
+
+## Collusive Oligopoly
+
+Formal collusion
+
+Informal collusion
+
+
+## Game Theory
+
+| |Donald Bombs| Donald Doesnt Bomb|
+|--|--|--|
+|Kim Bombs| 6,6| 0,10|
+|Kim Doesnt Bomb| 10,0| 1,1|
+
+
+
+## Monopolistics Competition:
+- Numerous Sellers
+- differentiated goods
+- barriers to entry low
+
+resturants and hotels
+
+- They are unlikely to collaborate with each other
+
+
+|Features| |
+|--|--|
+|Number of Firms| Large number|
+|Market Power of each firm| Each fimr ash some price making power but less than monopolist's|
+|Entry barriers| exist but Low|
+|Economic Profits| cannot be sustained beause low barriers to entry|
+
+monopolistically competitive firm starts out as a monopoly
