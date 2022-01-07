@@ -294,13 +294,10 @@ ke=1/2mv^2=1/2 GMm/r
 
 E=1/2 U
 
-
-
-
 1/2mv^2=GMm/r
-
 
 $v=\sqrt{\frac{2GM}{r}}$
 
 "rock" -jeremy yu when asked about the most abundant element in the solar system.
 
+$\frac{2}{\cos(c)}$

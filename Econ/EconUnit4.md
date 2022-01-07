@@ -95,3 +95,5 @@ resturants and hotels
 |Economic Profits| cannot be sustained beause low barriers to entry|
 
 monopolistically competitive firm starts out as a monopoly
+
+

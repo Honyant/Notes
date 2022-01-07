@@ -44,5 +44,3 @@ Then you can rewrite it as
 $\frac{d}{dx}e^{ln(f(x)^{g(x)})}=\frac{d}{dx}e^{g(x)ln(f(x))}=e^{g(x)ln(f(x))}*\frac{d}{dx}g(x)ln(f(x))$
 $=f(x)^{g(x)}*(\frac{g(x)f'(x)}{f(x)}+g'(x)ln(f(x)))$
 You dont need to memorize the formula, but you should understand the process.
-
-
