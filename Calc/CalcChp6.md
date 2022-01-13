@@ -44,3 +44,13 @@ Then you can rewrite it as
 $\frac{d}{dx}e^{ln(f(x)^{g(x)})}=\frac{d}{dx}e^{g(x)ln(f(x))}=e^{g(x)ln(f(x))}*\frac{d}{dx}g(x)ln(f(x))$
 $=f(x)^{g(x)}*(\frac{g(x)f'(x)}{f(x)}+g'(x)ln(f(x)))$
 You dont need to memorize the formula, but you should understand the process.
+
+
+Find the volume of the solid whose base is the reigion enclosed by the function $y=-x+1$, the x-axis, and the y-axis, and with cross sections perpendicular to the y-axis which are equilateral triangles.
+$\int_0^1 \frac{\sqrt{3} (1-x)^2}{4} dx$
+
+$=\int_0^1 \frac{\sqrt{3} (x)^2}{4} dx$
+$=\frac{\sqrt{3}}{4} \int_0^1 x^2 dx$
+$=\frac{\sqrt{3}}{4} \frac{x^3}{3} |_0^1$
+$=\frac{\sqrt{3}}{12}$
+

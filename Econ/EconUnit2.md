@@ -13,7 +13,7 @@
 
 $PED=-\frac{\% \Delta Q_d}{\% \Delta P}$
 
-$\% \Delta Q_d $ and $\% \Delta P$ always opposite signs
+$\% \Delta Q_d$ and $\% \Delta P$ always opposite signs
 
 top of the demand curve is ped elastic
 bottom is ped inelastic even when you drop the price $50\%$, demand barely changes

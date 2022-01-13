@@ -41,3 +41,16 @@ for the other forms, advertising is less likely.
 Monopsony-single demander
 
 
+![picture 1](https://i.imgur.com/5dPLutU.png)
+
+Labor:
+10,11,12,13,14,15
+Total Physical Product:
+100,109,112,121,124,125
+Hourly Wage Rate:
+5,6,7,8,9,10
+Product Price:
+3.11,3.00,2.95,2.92,2.90,2.89
+
+
+

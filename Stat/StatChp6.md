@@ -34,3 +34,5 @@ The binomial distribution is appropriate when we have this setting: 1. there are
 
 ### Binomial probability formula
 for exactly $j$ successes and $p-j$ failures in $n$ independent trials with success probability $p$ is $\boxed{Pr\{X=j\}= {n \choose j}p^j(1-p)^{n-j}}$
+
+
