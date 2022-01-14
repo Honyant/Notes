@@ -82,7 +82,18 @@ $\vec E=\frac{\sigma}{2 \epsilon_0} \hat x$
 
 $\frac{\lambda}{2 \pi \epsilon_0 r} \hat x$
 
-Gauss's Law:
+# Gauss's Law:
 first of the 4 maxwells equations:
 
 field equations for classical electrodynamics:
+
+Electric flux through any closed surface S, is equal to a constant $(\frac{1}{\epsilon_0})$times the charge enclosed by surface.
+
+$\boxed{\oint_S \vec E \cdot d \vec a = \frac{Q_{enclosed}}{ \epsilon_0}}$
+
+- need surface where $|\vec E|$ is constant
+- perpendicular to surface, so $\vec E = d \vec a$
+
+$\Phi= \oint_S \vec E \cdot d \vec a = \frac{Q_{enclosed}}{ \epsilon_0}$
+differential form
+$\nabla^2 V = - \frac{\rho}{\epsilon_0} $
