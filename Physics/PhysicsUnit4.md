@@ -76,6 +76,7 @@ $d \vec E = \frac{dq b}{4\pi \epsilon_0 (b^2+r^2)^{3/2}} \hat x$
 $dq = \sigma 2 \pi r dr$
 $E=\int_0^R \frac{\sigma b r}{2 \epsilon_0 (b^2+r^2)^{3/2}} dr$
 $-\frac{1}{4}*\frac{\sigma b r}{2 \epsilon_0}(-(b^2+r^2)^{-1/2}+(b)^{-1}) \hat x$
+$-\frac{1}{4}*\frac{\sigma b r}{2 \epsilon_0}(-\frac{1}{\sqrt{b^2+r^2}}+\frac{1}{b} \hat x$
 
 infinite plane:
 $\vec E=\frac{\sigma}{2 \epsilon_0} \hat x$
@@ -91,9 +92,163 @@ Electric flux through any closed surface S, is equal to a constant $(\frac{1}{\e
 
 $\boxed{\oint_S \vec E \cdot d \vec a = \frac{Q_{enclosed}}{ \epsilon_0}}$
 
+Differntial form
+$\vec{\nabla} \cdot \vec{E} = \frac{\rho}{ \epsilon_0}$
+
 - need surface where $|\vec E|$ is constant
 - perpendicular to surface, so $\vec E = d \vec a$
 
 $\Phi= \oint_S \vec E \cdot d \vec a = \frac{Q_{enclosed}}{ \epsilon_0}$
 differential form
 $\nabla^2 V = - \frac{\rho}{\epsilon_0} $
+
+
+Example: Sphere of radius R, charge density $\rho=ar$; find E
+
+a) $r>R$:
+$Q=\oint \vec E \vec {da}= EA=E(4 \pi r^2)$
+$Q=\int_0^{\infty} \rho 4 \pi r^2 dr$
+$E=\frac{a  R^4}{\epsilon_0 4 r_a^2} $
+
+b) $r<R$:
+$Q=\int_0^{r} \rho 4 \pi r^2 dr$
+
+$E=\frac{a r_b^2}{\epsilon_0 4}$
+
+
+# Cylindrical Symmetry
+
+# Conductors in Electrostatic Equilibrium
+
+1. The electric field in the interior of a conductor is zero.
+2. The interior of conductor can have no net charge. (E=0, so by Gauss's Law charge is 0)
+3. Any net charge must reside on the surface.
+4. E-field perpendicular to surface of conductor.
+
+Cavity charge is independent of the surface.
+
+No field allowed in cavity.
+
+Conductors are equipotential.
+
+
+# Electrostatic Potential, Potential Difference, Voltage
+
+Scalar field.
+
+$\Delta V=\frac{\Delta U}{q}=-\int \vec E \cdot d \vec r$
+
+Gravitational analogue is height.
+
+$\vec E \perp d \vec r$
+
+$E_X=-\frac{dV}{dx}$
+$Volt=\frac{Joule}{Coloumb}$
+$\frac{Newton}{Coloumb}=\frac{Volt}{Meter}$
+
+$V_{point}=\frac{kQ}{r}$
+$\vec E=\frac{kQ}{r^2} \hat r$
+$U=\frac{kQq}{r}$
+$\vec F = \frac{kQq}{r^2} \hat r$
+
+32=UQq/r
+
+$\int_0^L \frac{kQ}{\sqrt{y^2+x^2}} dx$
+
+## Gauss Spherical
+
+\[ E = \begin{cases} 
+    \frac{kQ}{r^2} & r > R \\
+    0 & r < R \\
+ \end{cases}
+\]
+No r=R cuz discontinuous
+
+\[ V = \begin{cases} 
+    V = V(r)- V(\infty)=-\int_{\infty}^{r} \frac{kQ}{r^2} dr = \frac{kQ}{r}  & r > R \\
+    -\int_{\infty}^{R} \frac{kQ}{r^2} dr = \frac{kQ}{R} & r = R \\
+    V = -\int_{\infty}^{R} \frac{kQ}{r^2} dr + -\int_{\infty}^{R} 0 dr = \frac{kQ}{R} & r < R \\
+ \end{cases}
+\]
+
+### Example: Uniformly Charged Sphere, Q, R
+
+$$\rho=\frac{3Q}{4\pi R^3}$$
+
+Gauss's Law to get $r < R$
+Good to know:
+\[\red{ E = \begin{cases} 
+    \frac{kQ}{r^2} & r > R \\
+    \frac{kQr}{R^3} & r < R \\
+ \end{cases}
+}
+\]
+
+$-kQ (\int_{\infty}^{R} \frac{1}{r^2} dr) + \int_{R}^{0} \frac{r}{R^3} dr = -kQ (-\frac{1}{R} - \frac{1}{2R})= \boxed{\frac{3kQ}{2R}}$
+
+### Example: Infinite cylinder, $\lambda$
+
+![picture 1](https://i.imgur.com/uO4FLCI.png)  
+
+$V=V_B-V_A$
+$\Delta V = - \int_A^B \frac{k\lambda}{2r} dr= -\frac{k\lambda}{2} (\ln(r))|_A^B=\frac{k\lambda}{2} (\ln(\frac{A}{B}))$
+
+### Example: Infinite sheet of charge, $\rho$
+
+$E=\frac{\rho}{2\epsilon_0} $
+$\Delta V = - \int_A^B \frac{\rho}{2\epsilon_0} dr= \frac{\rho(A-B)}{2\epsilon_0}$
+
+# Capacitance
+
+Capacitors storage charge.
+2 pieces of metal.
+$\star$ Capacitor is charged by moving charge from one to the other.
+
+**Definitions:**
+
+"Capacitor w/ charge Q" -> 1 plate is +Q, other is -Q.
+"capacitor w/ voltage V" -> potential difference between plates is V.
+
+$V \propto E \propto Q$
+
+**Define C:**
+$\boxed{C=\frac{Q}{V}}$
+
+Capacitance depends on the geometry.
+
+Farad:
+$\boxed{1 F=1 \frac{C}{V}}$
+
+**Deriving capacitance:**
+1. Imagine it is charged to Q.
+2. Find E between plates with Gauss's Law.
+3. Find $\Delta V$ between plates ($\Delta V=-\int \vec E dr$)
+4. Use $C=\frac{Q}{V}$
+
+## Parallel Plate Capacitor
+![picture 1](https://i.imgur.com/L23MJro.png)  
+
+1. E is only non-zero in the middle.
+2. Gauss's law $\to E=\frac{\rho}{\epsilon_0}$
+3. Plate is uniform so $\Delta V=Ed$
+4. $C=\frac{Q}{V}=\frac{Q \epsilon_0}{\rho d}=\frac{\epsilon_0 A}{d}$
+
+Dielectric becomes polarized and induces an opposing electric field.
+$E \downarrow V \downarrow C \uparrow $
+
+
+linear dielectric $\vec P = \epsilon_0  \chi_e \vec E$
+$\chi_e=$ electric susceptibility
+
+$\vec D = \epsilon_0 \vec E + \vec P$ (unchanged)
+
+### Dielectric Constant
+
+$\kappa=\frac{\epsilon}{\epsilon_0}$ :kappa:
+$\kappa=1$ air or vacuum
+$\kappa>1$ insulator
+
+$\boxed{\star\textrm{ just put }\kappa\textrm{ in front of }\epsilon_0}$
+≈√∫˜µ≤≥÷åß∂ƒ©
+### Energy stored in a capacitor, $U_c$
+
