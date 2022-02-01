@@ -63,3 +63,21 @@ $\frac{Nominal GDP}{Real GDP} \times 100$
 On the PPC, unattainable doesn't actually mean that we can't get to it, it just means that we can't sustain it.
 
 When the economy is at a high, people might not want to invest in, they might prepare for a correction.
+
+### Inflation
+
+**Types**
+Hyperinflation
+Disinflation  
+Deflation
+
+**Causes**
+
+cost push inflation: relates to supply
+demand pull inflation: relates to demand
+
+**Costs**
+
+Menu: when my costs increase, I need to spend to inform my consumers that the price increased.
+Shoe leather:
+Unit of account:

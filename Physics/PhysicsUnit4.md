@@ -252,3 +252,6 @@ $\boxed{\star\textrm{ just put }\kappa\textrm{ in front of }\epsilon_0}$
 ≈√∫˜µ≤≥÷åß∂ƒ©
 ### Energy stored in a capacitor, $U_c$
 
+move $dq$ from one plate to the other.
+$$\int dU= \int dq V(q) = \int_0^Q \frac{Q}{C} dq= \frac{Q^2}{2C}=\frac{1}{2} CV^2=\frac{1}{2} QV$$
+
