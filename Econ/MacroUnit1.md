@@ -1,4 +1,15 @@
+- [Macro Unit 1](#macro-unit-1)
+  - [Circular Flow Model](#circular-flow-model)
+  - [GDP](#gdp)
+    - [Ways to calculate GDP](#ways-to-calculate-gdp)
+  - [Types of Unemployment](#types-of-unemployment)
+  - [Metrics for inflation](#metrics-for-inflation)
+    - [Consumer Price Index (CPI)](#consumer-price-index-cpi)
+    - [GDP Deflator](#gdp-deflator)
+    - [Inflation](#inflation)
+- [Econ Roundtable 1](#econ-roundtable-1)
 
+# Macro Unit 1
 ## Circular Flow Model
 
 ![picture 1](https://i.imgur.com/oXqNUoT.png)  
@@ -81,3 +92,17 @@ demand pull inflation: relates to demand
 Menu: when my costs increase, I need to spend to inform my consumers that the price increased.
 Shoe leather:
 Unit of account:
+
+# Econ Roundtable 1
+
+cusp of potential recession
+consumer condifence
+
+
+higher borrowing costs slows down hiring
+yield curve
+
+the important indicators 2022
+- Global supply chain pressure index
+- covid case numbers
+- 
