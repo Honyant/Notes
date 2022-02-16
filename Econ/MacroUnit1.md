@@ -105,4 +105,3 @@ yield curve
 the important indicators 2022
 - Global supply chain pressure index
 - covid case numbers
-- 
