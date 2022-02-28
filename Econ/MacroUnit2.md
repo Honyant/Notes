@@ -60,8 +60,11 @@ Long run aggregate supply vs short run aggregate supply.
 
 Wages are sticky.
 
-
-
 ![picture 1](https://i.imgur.com/jBVEVlY.png)  
 1 3 5 7 10
 
+## Fiscal Policy
+- Contractionary -> Positive output gap (inflationary) -> $G \downarrow T \uparrow$
+- Expansionary -> Negative output gap (recessionary) -> $G \uparrow T \downarrow$
+  - Discretionary -> Actions through new regulation (something new, you have to pass a bill, so like eliminating NASA)
+  - Non-Discretionary -> Automatic stabilizers (e.g. unemployment benefits, progressive tax rates)

@@ -1,39 +1,32 @@
-# Improper Integrals
-Case 1: $F$ is continuous on $[a,b]$
-> We can use FTC Part 2 if we can find antiderivative
+# Differential Equations
+A differential equation is an equation
 
-Case 2: There are a finite number of removable or jump discontinuities
-> We can use FTC Part 2 in the pieces.
+The order of a differential equation is the highest derivative in the equation.
 
-Case 3: There is an infinite discontinuity between $a$ and $b$
-> This is Type II improper integral
+$y'''=x+y$ is a third order differential equation because the highest derivative is $y'''$.
 
-### Example: 
-
-**Wrong:**
-$\int_{-1}^{1} \frac{1}{x^2} dx$
-$=(-\frac{1}{x})|_{-1}^{1}$
-$-1-1=-2$
-
-**Correct:**
-$\int_{-1}^{1} \frac{1}{x^2} dx$
-$=(-1)*(\frac{1}{x}|_{-1}^{0}+\frac{1}{x}|_{0}^{1})$
-$\boxed{Diverges}$
-skipped a few steps but basically each individual term diverges so the overall integral diverges
-
-## Line integrals
-
-Length of segment $\overline{P_1 P_2}= \sqrt{(\Delta x)^2 + (\Delta y)^2}$
-
-$\Delta y \approx (\frac{dy}{dx}) \Delta x$
-
-$dy=\sqrt{1+\frac{dx^2}{dy^2}} \cdot dx$
-$dy=\sqrt{1+\left(\frac{dx}{dy}\right)^2} \cdot dx$
+$\frac{d^2 y}{dx^2} + 2\frac{dy}{dx} + y = 5$ is a second order differential equation because the highest derivative is $y''$.
 
 
+**Solving a differential equation** means to find all functions which satisfy the differential equation called the general solution.
 
-**Example:**
-What is the length of the curve $f(x)=\frac{x^3}{2}$ between $x=-1$ and $x=5$?
+Ex: with $\frac{dy}{dx}=3e^{5x}$, we have the general solution $y=\frac{3e^{5x}}{5} + C$. 
 
-$$\int_{-1}^{5} \sqrt{1+\left(\frac{3x^2}{2}\right)^2} dx$$
+To find a particular solution to a differential equation requires knowing one or more facts called initial conditions.
 
+$y(0)=3$ or $y'(1)=5$
+This is called solving an initial value problem.
+
+$\frac{dy}{dx}=3e^{5x}$ and $y(0)=1 \to$ $y=\frac{3e^{5x}}{5}+\frac{2}{5}$
+
+**Another Example**
+
+$\frac{dy}{dt}=y^2$ and $y(0)=1$
+$\frac{dy}{y^2}=dt$
+
+$\int y^2 dy=\int dt$
+$-y^{-1}=t+C$
+$y=\frac{1}{t+C}$
+
+## Euler's Method
+formula:$
