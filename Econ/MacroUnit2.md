@@ -68,3 +68,18 @@ Wages are sticky.
 - Expansionary -> Negative output gap (recessionary) -> $G \uparrow T \downarrow$
   - Discretionary -> Actions through new regulation (something new, you have to pass a bill, so like eliminating NASA)
   - Non-Discretionary -> Automatic stabilizers (e.g. unemployment benefits, progressive tax rates)
+
+## Phillips Curve
+![picture 2](https://i.imgur.com/sAI55OQ.png)  
+Inflation vs Unemployment
+LRPC vs SRPS
+-Recessionary or negative output gap at bottom
+
+AD/AS vs Phillips Curve
+
+
+whenever
+![picture 3](https://i.imgur.com/5suwU6q.png)  
+
+
+

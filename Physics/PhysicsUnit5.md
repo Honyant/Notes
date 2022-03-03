@@ -13,6 +13,7 @@
       - [Example 2](#example-2)
   - [RC Circuit](#rc-circuit)
   - [Charging a Capacitor](#charging-a-capacitor)
+  - [Discharging a Capacitor](#discharging-a-capacitor)
 
 # Circuits
 
@@ -220,3 +221,22 @@ $$V(t)=\frac{Q(t)}{C}=\varepsilon (1- e^{-\frac{t}{RC}})$$
 $\tau=RC$ 
 $\tau=$ characteristic time scale for circuit
 time to reach $1-\frac{1}{e}$
+
+## Discharging a Capacitor
+
+blah blah blah switch flips after capacitor is charged to max
+$IR+\frac{Q}{C}=0$
+$\frac{dQ}{dt}=-\frac{Q}{RC}$
+$\int_{Q(0)}^{Q(t)}  \frac{dQ}{Q} =\int_0^t (-\frac{dt}{RC})$
+$\ln|\frac{Q(t)}{Q(0)}|=-\frac{t}{RC}$
+$Q(t)=e^{-\frac{t}{RC}}*Q(0)$
+$Q(0)=\varepsilon C$
+$\boxed{Q(t)=e^{-\frac{t}{RC}}\varepsilon C}$
+
+$I=-\frac{dQ}{dt}$
+$\boxed{I(t)=\frac{\varepsilon}{R} e^{-\frac{t}{RC}}}$
+
+$\boxed{V(t)_C=\varepsilon e^{-\frac{t}{RC}}}$
+
+![picture 1](https://i.imgur.com/3Whl4sg.png)  
+
