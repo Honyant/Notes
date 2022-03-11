@@ -8,7 +8,6 @@
     - [Electric Field](#electric-field)
 - [Gauss's Law:](#gausss-law)
   - [Note on special case](#note-on-special-case)
-  - [Cylindrical Symmetry](#cylindrical-symmetry)
   - [Conductors in Electrostatic Equilibrium](#conductors-in-electrostatic-equilibrium)
 - [Electrostatic Potential, Potential Difference, Voltage](#electrostatic-potential-potential-difference-voltage)
   - [Gauss Spherical](#gauss-spherical)
@@ -21,8 +20,6 @@
     - [Energy stored in a capacitor, $U_c$](#energy-stored-in-a-capacitor-u_c)
   - [Cylindrical Capacitor](#cylindrical-capacitor)
     - [Spherical Capacitor](#spherical-capacitor)
-- [Circuits](#circuits)
-  - [Ohm's Law](#ohms-law)
 
 # Electromagnetism Introduction
 
@@ -76,7 +73,6 @@ Exactly like the gravitational field.
 Q>0: E points away
 Q<0: E points towards
 
-2kQ/(d*sqrt2)^2/sqrt2
 $=\frac{kQ}{d^2 \sqrt2} \hat x$ 
 
 $\vec E=\int_d^\infty \frac{k \lambda dx}{x^2} \hat x $
@@ -99,8 +95,7 @@ $\vec E=\frac{Q b}{4 \pi \epsilon_0 (b^2+R^2)^{3/2}} \hat x$
 $d \vec E = \frac{dq b}{4\pi \epsilon_0 (b^2+r^2)^{3/2}} \hat x$
 $dq = \sigma 2 \pi r dr$
 $E=\int_0^R \frac{\sigma b r}{2 \epsilon_0 (b^2+r^2)^{3/2}} dr$
-$-\frac{1}{4}*\frac{\sigma b r}{2 \epsilon_0}(-(b^2+r^2)^{-1/2}+(b)^{-1}) \hat x$
-$-\frac{1}{4}*\frac{\sigma b r}{2 \epsilon_0}(-\frac{1}{\sqrt{b^2+r^2}}+\frac{1}{b} \hat x$
+$-\frac{1}{4}*\frac{\sigma b r}{2 \epsilon_0}(-\frac{1}{\sqrt{b^2+r^2}}+\frac{1}{b} \hat x)$
 
 infinite plane:
 $\vec E=\frac{\sigma}{2 \epsilon_0} \hat x$
@@ -143,7 +138,6 @@ $E=\frac{a r_b^2}{\epsilon_0 4}$
 ## Note on special case
 
 The Efield inside a hollow conductor shell is always 0 because the work done by traversing a path within the surface in the conductor is 0, and because electric is conservative, a path through the center will have 0 field.
-## Cylindrical Symmetry
 
 ## Conductors in Electrostatic Equilibrium
 

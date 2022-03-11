@@ -35,3 +35,7 @@ Conditions:
 satisfied
 calculate
 p val=
+
+Method 1:
+
+Capture Rate: 99.4
