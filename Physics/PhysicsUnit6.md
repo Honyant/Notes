@@ -71,3 +71,13 @@ $B=\int \frac{\mu_0 I}{4\pi} \frac{R}{\sqrt{x^2 + R^2}} \frac{dl}{x^2+R^2}$
 $=\frac{\mu_0 I R^2}{2 (x^2 +R^2)^\frac{3}{2}} \hat x$
 
 $\frac{\mu_0 I}{4\pi} \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \frac{x \sec ^2 \phi d \phi \cos \phi}{(x \sec \phi)^2}=\frac{I \mu_{0}}{2 \pi x}$
+
+$\frac{F}{L}=\frac{\mu_0 I_2 I_1}{2\pi r}$
+
+# Amperes Law
+
+"Amperian Loop"
+
+for any closed loop C
+
+$\oint \vec B \cdot d \vec l = \mu_0 I_{enc}$
