@@ -81,3 +81,22 @@ $\frac{F}{L}=\frac{\mu_0 I_2 I_1}{2\pi r}$
 for any closed loop C
 
 $\oint \vec B \cdot d \vec l = \mu_0 I_{enc}$
+
+For a solenoid, u gotta enclose some part where you can use symmetry and have a surface that has net current passing through it.
+
+We have an Amperian Rectangle. Only the part inside the solenoid has nonzero $\vec B \cdot d \vec l$. 
+$\oint \vec B \cdot d \vec l = B \int_I d l = BL$
+
+$BL=\mu_0 n L I$
+
+$B=\mu_0 n I$
+
+$B*2l$
+$B/\mu_0=\frac{\int k_0 y^2 dy }{l} = \frac{\mu_0 k_{0} y^{3}}{3 l}$
+
+
+
+
+
+
+
