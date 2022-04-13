@@ -97,3 +97,49 @@ $P=IV=IL \frac{dI}{dt}$
 $U=\int dU= \int IL \frac{dI}{dt}=\frac{LI^2}{2}$
 
 $\int_{a}^{a+w} (\frac{\mu_0 I}{2\pi r} h * dr) = \frac{I h \mu_{0} \left(- \log{\left(a \right)} + \log{\left(a + w \right)}\right)}{2 \pi}$
+
+## Inductor circuits
+
+When current is changing, L behaves like a battery w/ $\varepsilon = - L \frac{d I}{d t}$
+
+- current cannot change instantaneously because $\varepsilon$ would equal $\infty$
+at steady state, the inductor behaves like a wire
+at non-steady state, determine $\frac{d I}{d t}$ from $\varepsilon$
+
+## LR circuit
+
+Switch is at A for a long time.
+$I=\frac{\varepsilon_0}{R}$
+now switch to B at $t=0$
+find $I(t)$
+Switch to B at $t=0$
+
+loop rule: $-IR-L\frac{dI}{dt}=0$
+
+$-IR=L \frac{dI}{dt}$
+
+$\frac{dI}{dt}<0$
+
+$\int -R dt=\int \frac{dI}{I}$
+
+$-\frac{Rt}{L}=\ln(\frac{I(t)}{\frac{\varepsilon_0}{R}})$
+
+$I(t)=\frac{\varepsilon_0}{R} e^{-\frac{Rt}{L}}$
+
+### Turning it on
+
+$\varepsilon_0=IR-L\frac{dI}{dt}$
+$L\frac{dI}{dt}=IR-\varepsilon_0$
+$\frac{L dI}{IR-\varepsilon_0}=dt$
+$\int_0^t \frac{dI}{dt}=\int_0^t \frac{dI}{I}$
+
+$I(t)=\frac{\varepsilon_0}{R} (1-e^{-\frac{Rt}{L}})$
+
+## CL circuit
+
+$\frac{Q}{C}=L\frac{dI}{dt}$
+$I=-\frac{dQ}{dt}$
+
+$-Q\frac{1}{LC}=\frac{d^2 Q}{dt ^2}$
+
+$w_0=\sqrt{\frac{1}{LC}}$
