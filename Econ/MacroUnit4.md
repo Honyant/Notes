@@ -14,3 +14,40 @@ $CA+FA=0$
 
 Inflow of money
 
+
+
+1 P
+2 D
+3 D
+4 E
+5 P
+6 P
+
+
+
+What will happen to the US
+
+1. Europeans travel to the US
+   dUS+ USD+
+2. Severe recession in Europe
+   dEU- USD-
+3. Increase in Price Level in US
+   dUS- sUS+ USD-
+4. Higher interest rate in US
+   dUS+ sUS- USD+
+
+1. s tourist love japan
+   dJP+ sUSD+ USD-
+2. us govmt cuts income taxes 
+   dJP+ sUSD+ USD-
+3. higher inflation in japan
+   sJP+ USD+
+4. higher interest rates in jap
+   dJP+ USD-
+5. jap places tarrifies on us imports
+   dUSD- USD-
+6. us falls into huge recession
+   sUSD- dJP- USD+
+
+
+

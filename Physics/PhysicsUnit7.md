@@ -82,9 +82,7 @@ terminal velocity=$\frac{mgR}{B^2 L^2}$
 # Inductor
 
 This stores energy in magnetic field.
-
-
-
+Solenoid is a good example: circular coil of wire.
 Inductance of a Inductor: $L=\frac{N \Phi}{I}$
 
 induced back emf: $\varepsilon_{loop}=-L\frac{d I}{d t}$
@@ -143,3 +141,78 @@ $I=-\frac{dQ}{dt}$
 $-Q\frac{1}{LC}=\frac{d^2 Q}{dt ^2}$
 
 $w_0=\sqrt{\frac{1}{LC}}$
+
+
+# DC vs AC
+
+AC, you can change the voltage up and down.
+You can't do this for DC.
+
+Primary input coil. $N_p$ turns
+
+Secondary output coil. $Ns$ turns
+
+![picture 1](https://i.imgur.com/3HQFKV9.png)  
+
+# Primary:
+$V_p=V_{op} \cos(\omega t)$
+$I_p=I_{op} \sin(\omega t)$
+
+# Secondary:
+$V_s=V_{os} \cos(\omega t)$
+$I_s=I_{os} \sin(\omega t)$
+
+**Self Inductance:** $L=\frac{\phi_0}{I}$
+**Mutual Inductance:** $M_{12}=\frac{\Phi_{12}}{I_2}=M_{21}=M$
+
+Primary:
+$V_p-L_p\frac{d I_p}{dt}+M\frac{d I_s}{dt}=0$
+$V_{op}=\omega (L_p I_{op})-M I_{os}$
+
+Secondary:
+$V_s-L_s\frac{d I_s}{dt}+M\frac{d I_p}{dt}=0$
+$V_{os}=\omega (L_s I_{os})-M I_{op}$
+
+Assume no power loss:
+
+$P_p=P_s \to I_p V_p=I_s V_s$
+
+$\omega (L_p I_{op}^2 - M I_{os}I_{op})=\omega (L_s I_{os}^2 - M I_{op}I_{os})$
+
+$L_p I_{op}^2=L_s I_{os}^2$
+
+$N_p^2 I_{op}^2=N_s^2 I_{os}^2$
+
+
+$\frac{V_s}{V_p}=\frac{N_s}{N_p}$
+
+# Inductance of Solenoid
+$L=\frac{N \Phi}{I}=\frac{NBA}{I}=\frac{\mu_0 N A * \frac{N}{l} I}{I}$
+
+Given the 4 Maxwells equations:
+
+$\oint \vec E \cdot d \vec a = \frac{Q}{e_0}$
+$\oint \vec B \cdot d \vec a = 0$
+$\oint \vec B \cdot d \vec l = \mu_0 I$
+$\oint \vec E \cdot d \vec l = -\frac{d}{dt} \int \vec B \cdot d \vec a$
+
+For Amperes' law:
+Withing the capacitor, we add an additional term due to displacement current.
+
+$\oint \vec B \cdot d \vec l = \mu_0 I+\mu_0 \varepsilon_0 \frac{d}{dt} \int \vec E \cdot d \vec a$
+
+Maxwell's equations in differential form:
+$\nabla \cdot E = \frac{\rho}{e_0}$
+$\nabla \cdot B = 0$
+$\nabla \times B = \mu_0 J + \mu_0 \varepsilon_0 \frac{\partial E}{\partial t}$
+$\nabla \times E = -\frac{\partial B}{\partial t}$
+
+We can control a plane of magnetic field vectors.
+
+We vary E but $E_y=E_z=0,\frac{\partial E}{\partial y}=\frac{\partial E}{\partial x}=0,\frac{\partial B}{\partial y}=\frac{\partial B}{\partial x}=0$
+
+$E_x (z,t)$
+$\nabla \times E = (0, \frac{\partial E_x}{\partial z}, 0)$ 
+$\frac{\partial E}{\partial t} = (\frac{\partial E_x}{\partial t},0,0)$
+$(\nabla \times B)_X=-\frac{\partial B_y}{\partial z}$
+
